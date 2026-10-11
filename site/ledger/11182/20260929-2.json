@@ -1,0 +1,128 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11182",
+  "day": 20260929,
+  "epochDay": 20725,
+  "phase": 2,
+  "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+  "block": "124778997",
+  "root": "0x5ec15f3112f12ac20782051992ed65b2f831a0e6ec54a36bf10869b3a6d641a6",
+  "pages": [
+    {
+      "page": {
+        "kind": "record",
+        "day": 20260929,
+        "phase": 2,
+        "role": "trader",
+        "tokenId": "11182",
+        "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+        "block": "124778997"
+      },
+      "leaf": "0x3dee3b5791c58ceaec333ca71eb471b0c9119f2a1a188edf00db034dbcb65ed6",
+      "proof": [
+        "0x3059776fbfe0dcd23558859c6051b019f32f068bcb738c31a25b125b307e81d1",
+        "0xd316a2728365f7f19ecd354e31ce7d95f5fc8a60e4dc1f878336051005a05872",
+        "0xe8430580c001d12b4a47112147fab635417c3a4fbe9350505898b5cbfd92aed5"
+      ]
+    },
+    {
+      "page": {
+        "kind": "purchase",
+        "day": 20260929,
+        "phase": 2,
+        "stock": "QQQB",
+        "from": {
+          "tokenId": "11181",
+          "epochDay": 20725,
+          "phase": 1,
+          "root": "0xa4d8d0d600b89a7f3a7cf7dea88d75066e40b1e06cfb2510852d0db699c8b9f9"
+        },
+        "noteHash": "0xd99b4ef5174f62b84a720692e1e70ba5d096e75cf7db68b0e71450a3bd904e89",
+        "paidTx": "0xb082f2bfa13647b35fdc6dc8bea56793d4bdbf342cf8e8949f2eb31b9968fb0b",
+        "priceU": "0.02",
+        "verified": true
+      },
+      "leaf": "0x3059776fbfe0dcd23558859c6051b019f32f068bcb738c31a25b125b307e81d1",
+      "proof": [
+        "0x3dee3b5791c58ceaec333ca71eb471b0c9119f2a1a188edf00db034dbcb65ed6",
+        "0xd316a2728365f7f19ecd354e31ce7d95f5fc8a60e4dc1f878336051005a05872",
+        "0xe8430580c001d12b4a47112147fab635417c3a4fbe9350505898b5cbfd92aed5"
+      ]
+    },
+    {
+      "page": {
+        "kind": "decision",
+        "day": 20260929,
+        "phase": 2,
+        "stock": "QQQB",
+        "buy": true,
+        "reason": "one share costs 0.08% over the real share, within the 0.20% limit",
+        "quote": {
+          "perShare": "738.9693",
+          "reference": "738.3710",
+          "premiumBps": "8.1",
+          "session": "regular",
+          "impact1000UsdPct": "0.0023"
+        },
+        "at": "2026-09-29T14:00:52.196Z",
+        "rules": {
+          "maxPremiumBps": "20",
+          "sanityBps": "100"
+        },
+        "bought": "0xe1744bb808b22a04d35cde570e881d458ba171d2ea9e94a8cf04eb0fbb1be57f",
+        "tradeTx": "0xe1744bb808b22a04d35cde570e881d458ba171d2ea9e94a8cf04eb0fbb1be57f",
+        "targets": {
+          "takeProfitBps": 300,
+          "stopLossBps": 300,
+          "from": "note",
+          "tx": "0xd132401fd556b0fdb9d340588c4b8555628806f7f37a8ce8f20f926c79151fdf"
+        }
+      },
+      "leaf": "0x44b54a9aa18ae2a1d38cdc642bbf03f0be621ba4bc962ca4aeb4c2d82d73fea9",
+      "proof": [
+        "0x7aef06f38e300e990cb03d5826943090afd96df19018ee1d711db61ef16ca32f",
+        "0xa434c9694c10e68ff4edd24c903297bc46b3388ddd520b264ac53d537a328bbe"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20260929,
+        "phase": 2,
+        "stock": "NVDAB",
+        "units": "8638968332959126",
+        "costUsd": "2.0",
+        "takeProfitBps": 300,
+        "stopLossBps": 300
+      },
+      "leaf": "0x7aef06f38e300e990cb03d5826943090afd96df19018ee1d711db61ef16ca32f",
+      "proof": [
+        "0x44b54a9aa18ae2a1d38cdc642bbf03f0be621ba4bc962ca4aeb4c2d82d73fea9",
+        "0xa434c9694c10e68ff4edd24c903297bc46b3388ddd520b264ac53d537a328bbe"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20260929,
+        "phase": 2,
+        "stock": "QQQB",
+        "units": "2704287757064194",
+        "costUsd": "2.0",
+        "takeProfitBps": 300,
+        "stopLossBps": 300
+      },
+      "leaf": "0xd316a2728365f7f19ecd354e31ce7d95f5fc8a60e4dc1f878336051005a05872",
+      "proof": [
+        "0x59b28e2f893742c7fbc593e2ffef59d8741a6bfc956644309555679f4f9da9bd",
+        "0xe8430580c001d12b4a47112147fab635417c3a4fbe9350505898b5cbfd92aed5"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0x1829b7d971d492d1f49e0688f19f84cef151713258c3e7aa0363275ac826a5ba",
+    "block": 124779008,
+    "epochDay": 20725
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946"
+}

@@ -1,0 +1,295 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11181",
+  "day": 20260929,
+  "epochDay": 20725,
+  "phase": 1,
+  "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+  "block": "124720990",
+  "root": "0xa4d8d0d600b89a7f3a7cf7dea88d75066e40b1e06cfb2510852d0db699c8b9f9",
+  "pages": [
+    {
+      "page": {
+        "kind": "market",
+        "day": 20260929,
+        "phase": 1,
+        "tokenId": "11181",
+        "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+        "block": "124720990",
+        "takenAt": "2026-09-29T13:01:03.048Z",
+        "session": {
+          "open": true,
+          "market": "premarket",
+          "reason": null,
+          "nextOpen": "1790688660000",
+          "nextClose": "1790688540000"
+        }
+      },
+      "leaf": "0x4611843ac1ef3c5fae7bdab643fb3e2d7b2ba9c6f060d20481508df65e68dea7",
+      "proof": [
+        "0x6d22996d2129fc4400bfc830584833710e2eec550d86ad91a20d2c566726e747",
+        "0x742c4097d4222b77372ebb59d95fcda5da1cbe06e01d983a9cd25b71dce60718",
+        "0xe0aede6aa468b23a0331290930b7d21547a6173e2f9e498d675d4126c504ca7b"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "NVDAB",
+        "underlying": "NVDA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "230.38915489013389860165",
+          "sharesMultiplier": "1.000778223752807865"
+        },
+        "ondo": {
+          "symbol": "NVDAon",
+          "market": "premarket",
+          "reason": "TRADING",
+          "tokenPrice": "230.54476451039705247",
+          "sharesMultiplier": "1.0017152487959898",
+          "referencePrice": "230.3725"
+        },
+        "impact1000UsdPct": "0.0012",
+        "pool": {
+          "perShare": "231.4032",
+          "reference": "230.3725",
+          "premiumBps": "44.7",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0012"
+        }
+      },
+      "leaf": "0xbd5c5361f738fd0a2111d5408851ad81987eff87ceaaf8f69a1da30eae966e37",
+      "proof": [
+        "0xf9befbb04b35c1b2bde9e1a2b572716ae947855b3484dd9f836f737f70a79d5e",
+        "0xc1259dd1eb8358b2b5eaad1c34343116637c068a13f7683ac8c03d150f43e74c",
+        "0x2cc1e4322e7eecfecb20bfda09f114efbe2e3ebe121b0cd6876c1e89ef2182ca"
+      ]
+    },
+    {
+      "page": {
+        "kind": "note",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "NVDAB",
+        "position": {
+          "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+          "balance": "64978029922643513",
+          "block": "124720990"
+        },
+        "quote": {
+          "perShare": "231.4032",
+          "reference": "230.3725",
+          "premiumBps": "44.7",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0012"
+        },
+        "plan": {
+          "units": "64978029922643513",
+          "costUsd": "15003391722523839628",
+          "takeProfitBps": 300,
+          "stopLossBps": 300
+        },
+        "text": "The desk holds 0.064978 NVDAB, about 14.97 USD at 230.39 per token (0.065029 NVDA shares at a multiplier of 1.000778223752807865). Ondo's NVDAon is in its premarket session, reference price 230.3725. A 1,000 USD buy moves the NVDAB/USDT pool by 0.0012%. Through the pool one NVDA share costs 231.40 USD, +0.45% against the real share at 230.37 (premarket session). The position cost 15.00 USD; the desk sells it at +3.00% or at -3.00% from that.",
+        "footer": "This is a record of what this agent holds and observed. It is not investment advice and not a recommendation to buy or sell anything."
+      },
+      "leaf": "0x3af2b5744da1043c7f0e7677cd7363d41ec4a6eaa9c38a386a96e42af769ecd3",
+      "proof": [
+        "0x31ea7d1f714362b37590754f02a7f1d2638b13be543c8903817581044f034891",
+        "0xdace0036d4cba51c9e3e1b35e6af4dfaf71e85cf26b9be0d8ada14b80550259a",
+        "0xe0aede6aa468b23a0331290930b7d21547a6173e2f9e498d675d4126c504ca7b"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "QQQB",
+        "underlying": "QQQ",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "739.27546730989550239842",
+          "sharesMultiplier": "1.000724838657573033"
+        },
+        "ondo": {
+          "symbol": "QQQon",
+          "market": "premarket",
+          "reason": "TRADING",
+          "tokenPrice": "741.390081299166492792",
+          "sharesMultiplier": "1.004082430180208355",
+          "referencePrice": "738.4375"
+        },
+        "impact1000UsdPct": "0.0023",
+        "pool": {
+          "perShare": "738.7459",
+          "reference": "738.4375",
+          "premiumBps": "4.2",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0023"
+        }
+      },
+      "leaf": "0x9a668d92419d2f08820582eff1e530a3ee6943512ffb5fb4597ef66a15bf73d4",
+      "proof": [
+        "0xa3300853728cc839a5a1f13ecbe932cc774886a5e97c534fe9f1046734e846db",
+        "0x3ad17d4e01ea7192c4ee4a4589835b415d14a1704ebb1fa67f32780acc22b671",
+        "0x2cc1e4322e7eecfecb20bfda09f114efbe2e3ebe121b0cd6876c1e89ef2182ca"
+      ]
+    },
+    {
+      "page": {
+        "kind": "note",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "QQQB",
+        "position": {
+          "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+          "balance": "20381201458984645",
+          "block": "124720990"
+        },
+        "quote": {
+          "perShare": "738.7459",
+          "reference": "738.4375",
+          "premiumBps": "4.2",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0023"
+        },
+        "plan": {
+          "units": "20381201458984645",
+          "costUsd": "14998093068741079823",
+          "takeProfitBps": 300,
+          "stopLossBps": 300
+        },
+        "text": "The desk holds 0.020381 QQQB, about 15.07 USD at 739.28 per token (0.020396 QQQ shares at a multiplier of 1.000724838657573033). Ondo's QQQon is in its premarket session, reference price 738.4375. A 1,000 USD buy moves the QQQB/USDT pool by 0.0023%. Through the pool one QQQ share costs 738.75 USD, +0.04% against the real share at 738.44 (premarket session). The position cost 15.00 USD; the desk sells it at +3.00% or at -3.00% from that.",
+        "footer": "This is a record of what this agent holds and observed. It is not investment advice and not a recommendation to buy or sell anything."
+      },
+      "leaf": "0xa3300853728cc839a5a1f13ecbe932cc774886a5e97c534fe9f1046734e846db",
+      "proof": [
+        "0x9a668d92419d2f08820582eff1e530a3ee6943512ffb5fb4597ef66a15bf73d4",
+        "0x3ad17d4e01ea7192c4ee4a4589835b415d14a1704ebb1fa67f32780acc22b671",
+        "0x2cc1e4322e7eecfecb20bfda09f114efbe2e3ebe121b0cd6876c1e89ef2182ca"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "TSLAB",
+        "underlying": "TSLA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "358.59",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "TSLAon",
+          "market": "premarket",
+          "reason": "TRADING",
+          "tokenPrice": "358.36",
+          "sharesMultiplier": "1",
+          "referencePrice": "358.775"
+        },
+        "impact1000UsdPct": "0.0050",
+        "pool": {
+          "perShare": "359.5506",
+          "reference": "358.7750",
+          "premiumBps": "21.6",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0050"
+        }
+      },
+      "leaf": "0x6d22996d2129fc4400bfc830584833710e2eec550d86ad91a20d2c566726e747",
+      "proof": [
+        "0x4611843ac1ef3c5fae7bdab643fb3e2d7b2ba9c6f060d20481508df65e68dea7",
+        "0x742c4097d4222b77372ebb59d95fcda5da1cbe06e01d983a9cd25b71dce60718",
+        "0xe0aede6aa468b23a0331290930b7d21547a6173e2f9e498d675d4126c504ca7b"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "SPYB",
+        "underlying": "SPY",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "768.36681968393409558624",
+          "sharesMultiplier": "1.001729792036835231"
+        },
+        "ondo": {
+          "symbol": "SPYon",
+          "market": "premarket",
+          "reason": "TRADING",
+          "tokenPrice": "773.652872567158697317",
+          "sharesMultiplier": "1.009473072784042724",
+          "referencePrice": "766.406522"
+        },
+        "impact1000UsdPct": "0.0058",
+        "pool": {
+          "perShare": "766.8849",
+          "reference": "766.4065",
+          "premiumBps": "6.2",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0058"
+        }
+      },
+      "leaf": "0xf9befbb04b35c1b2bde9e1a2b572716ae947855b3484dd9f836f737f70a79d5e",
+      "proof": [
+        "0xbd5c5361f738fd0a2111d5408851ad81987eff87ceaaf8f69a1da30eae966e37",
+        "0xc1259dd1eb8358b2b5eaad1c34343116637c068a13f7683ac8c03d150f43e74c",
+        "0x2cc1e4322e7eecfecb20bfda09f114efbe2e3ebe121b0cd6876c1e89ef2182ca"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260929,
+        "phase": 1,
+        "stock": "MUB",
+        "underlying": "MU",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "1069.65498899284034463262",
+          "sharesMultiplier": "1.000107512568805603"
+        },
+        "ondo": {
+          "symbol": "MUon",
+          "market": "premarket",
+          "reason": "TRADING",
+          "tokenPrice": "1070.112792809374728253",
+          "sharesMultiplier": "1.001121237525844732",
+          "referencePrice": "1068.51"
+        },
+        "impact1000UsdPct": "1.1727",
+        "pool": {
+          "perShare": "1070.8920",
+          "reference": "1068.5100",
+          "premiumBps": "22.3",
+          "session": "premarket",
+          "impact1000UsdPct": "1.1727"
+        }
+      },
+      "leaf": "0x31ea7d1f714362b37590754f02a7f1d2638b13be543c8903817581044f034891",
+      "proof": [
+        "0x3af2b5744da1043c7f0e7677cd7363d41ec4a6eaa9c38a386a96e42af769ecd3",
+        "0xdace0036d4cba51c9e3e1b35e6af4dfaf71e85cf26b9be0d8ada14b80550259a",
+        "0xe0aede6aa468b23a0331290930b7d21547a6173e2f9e498d675d4126c504ca7b"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0x1a623a183f05381a224266d3ee31545343c7a55bad6fd5663123c9457e3a4be6",
+    "block": 124721015,
+    "epochDay": 20725
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946"
+}

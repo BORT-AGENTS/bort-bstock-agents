@@ -1,0 +1,232 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11182",
+  "day": 20261006,
+  "epochDay": 20732,
+  "phase": 2,
+  "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+  "block": "126122401",
+  "root": "0xe6079dd210a66e1ddf6ad84f0322e9170b1abf33cbf1ad28d9b113b2e79efdae",
+  "pages": [
+    {
+      "page": {
+        "kind": "record",
+        "day": 20261006,
+        "phase": 2,
+        "role": "trader",
+        "tokenId": "11182",
+        "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+        "block": "126122401"
+      },
+      "leaf": "0xc9566e7be79c0555bb5bf41e9023c6a5d344d33e3aaa57bef4dcbfb5794d8c92",
+      "proof": [
+        "0x2a00e21ffcc619b658362e47bcccd0f06caadd81b0aa16fc0d87380094eafb76",
+        "0x7822145695361423d7b7a92ff250f7d2a2c4641897a252bf21f288386c8de35d"
+      ]
+    },
+    {
+      "page": {
+        "kind": "purchase",
+        "day": 20261006,
+        "phase": 2,
+        "stock": "QQQB",
+        "from": {
+          "tokenId": "11181",
+          "epochDay": 20732,
+          "phase": 1,
+          "root": "0xe07f02c17cd0170e078791a6a279ff712bc50eb6a800a7910e0e936ece7cf49b"
+        },
+        "noteHash": "0x4b310a1996dd90540180148e6e6f129a780c46bd4667eed26d0539dbbd3db58b",
+        "paidTx": "0xba1564779ad8f2480101012d3d1f160de9e878474c339e058f6a33405bfbb563",
+        "priceU": "0.02",
+        "verified": true,
+        "rating": {
+          "rank": 2,
+          "of": 18,
+          "score": "5.5",
+          "premiumBps": "2.6",
+          "driftBps": "2.9",
+          "days": 4
+        },
+        "claim": {
+          "bandBps": 10,
+          "basis": "history",
+          "days": 4,
+          "typicalGapBps": "2.9"
+        }
+      },
+      "leaf": "0x9adb63932501f5a2224ebb226a69875e320e89e2f01b2c0716b6e30e4ea38d15",
+      "proof": [
+        "0xc6732ec1dfabd921369af957eab0bb8f8b9cb40cc958b088da294cb6d133cf79",
+        "0x0873f554690b672ed771c9426ad28f8212d28d620e530dd8bd1c312fca200bf2",
+        "0xb8e8f1f0526fbe0e42f29793ac6d7b1601f94509593720abcb1917f449d08ff2"
+      ]
+    },
+    {
+      "page": {
+        "kind": "purchase",
+        "day": 20261006,
+        "phase": 2,
+        "stock": "SPYB",
+        "from": {
+          "tokenId": "11181",
+          "epochDay": 20732,
+          "phase": 1,
+          "root": "0xe07f02c17cd0170e078791a6a279ff712bc50eb6a800a7910e0e936ece7cf49b"
+        },
+        "noteHash": "0xc8298db9f61a26bbc49a4e5daa9fef815b27d43be5c640f62292c23b52f01ced",
+        "paidTx": "0xcfdf0cb1d8ecf46b921c5b18f924caeedd590f5166571aded444401b879970a7",
+        "priceU": "0.02",
+        "verified": true,
+        "rating": {
+          "rank": 1,
+          "of": 18,
+          "score": "4.0",
+          "premiumBps": "-2.8",
+          "driftBps": "1.2",
+          "days": 4
+        },
+        "claim": {
+          "bandBps": 10,
+          "basis": "history",
+          "days": 4,
+          "typicalGapBps": "1.2"
+        }
+      },
+      "leaf": "0x333f0c9a4a966d74e779dc1194f62950e20535185c9525bad86d39ef5ea040c6",
+      "proof": [
+        "0x0660df583824532e28b43bfd48f3fbc808950996719d769478a3c9b3c65dfe31",
+        "0xc9566e7be79c0555bb5bf41e9023c6a5d344d33e3aaa57bef4dcbfb5794d8c92",
+        "0x7822145695361423d7b7a92ff250f7d2a2c4641897a252bf21f288386c8de35d"
+      ]
+    },
+    {
+      "page": {
+        "kind": "decision",
+        "day": 20261006,
+        "phase": 2,
+        "stock": "SPYB",
+        "buy": true,
+        "reason": "one share costs 0.02% under the real share, a discount",
+        "chosen": {
+          "rank": 1,
+          "of": [
+            "QQQB",
+            "SPYB"
+          ]
+        },
+        "tried": [
+          {
+            "stock": "SPYB",
+            "rank": 1,
+            "buy": true,
+            "reason": "one share costs 0.02% under the real share, a discount",
+            "quote": {
+              "perShare": "779.6375",
+              "reference": "779.7871",
+              "premiumBps": "-1.9",
+              "feeBps": "1",
+              "session": "regular",
+              "impact1000UsdPct": "0.0095"
+            }
+          }
+        ],
+        "quote": {
+          "perShare": "779.6375",
+          "reference": "779.7871",
+          "premiumBps": "-1.9",
+          "feeBps": "1",
+          "session": "regular",
+          "impact1000UsdPct": "0.0095"
+        },
+        "at": "2026-10-06T14:00:36.647Z",
+        "rules": {
+          "maxPremiumBps": "20",
+          "sanityBps": "100"
+        },
+        "bought": "0xe811a146cb0dafdd0e4e69bccc61f57bb3d326c4d07d72eeb2db98357febaaa1",
+        "tradeTx": "0xe811a146cb0dafdd0e4e69bccc61f57bb3d326c4d07d72eeb2db98357febaaa1",
+        "targets": {
+          "takeProfitBps": 200,
+          "stopLossBps": 200,
+          "from": "note",
+          "tx": "0x624e0240845e66c3c84f40ee77b6968dbc559d74b18440c9aea0f6fcb454ef79"
+        }
+      },
+      "leaf": "0x6747ddf40c1d4439a3db6ea97b19c872f2003d8f2aeeeae8c07c568a51df0928",
+      "proof": [
+        "0x51a06981f03f52a434950fb0c68d7cd5cf0770d02ca8cda5c11f303fe5108023",
+        "0x67b39f21c21f3a4d3dd3c857e709a3841c25d4636a5e38e34cffac9cba90af8e",
+        "0xb8e8f1f0526fbe0e42f29793ac6d7b1601f94509593720abcb1917f449d08ff2"
+      ]
+    },
+    {
+      "page": {
+        "kind": "exit",
+        "day": 20261006,
+        "phase": 2,
+        "stock": "NVDAB",
+        "exit": "take-profit",
+        "reason": "up 4.03%, at or past the 3.00% take-profit",
+        "costUsd": "2.0000",
+        "valueUsd": "2.0806",
+        "premiumBps": "2.3",
+        "tx": "0xf104d11b9ae549ccd0deca8529142763d565a86cbc1d56d8564e850ca13fe838",
+        "at": "2026-10-06T12:45:15.708Z"
+      },
+      "leaf": "0x0660df583824532e28b43bfd48f3fbc808950996719d769478a3c9b3c65dfe31",
+      "proof": [
+        "0x333f0c9a4a966d74e779dc1194f62950e20535185c9525bad86d39ef5ea040c6",
+        "0xc9566e7be79c0555bb5bf41e9023c6a5d344d33e3aaa57bef4dcbfb5794d8c92",
+        "0x7822145695361423d7b7a92ff250f7d2a2c4641897a252bf21f288386c8de35d"
+      ]
+    },
+    {
+      "page": {
+        "kind": "exit",
+        "day": 20261006,
+        "phase": 2,
+        "stock": "QQQB",
+        "exit": "take-profit",
+        "reason": "up 3.06%, at or past the 3.00% take-profit",
+        "costUsd": "3.9997",
+        "valueUsd": "4.1221",
+        "premiumBps": "4.2",
+        "tx": "0x118db32a6d0c3b5fd9be6b1e742caa62840f248a66a7c2494a3bcd04233dc4d5",
+        "at": "2026-10-06T15:02:07.899Z"
+      },
+      "leaf": "0xc6732ec1dfabd921369af957eab0bb8f8b9cb40cc958b088da294cb6d133cf79",
+      "proof": [
+        "0x9adb63932501f5a2224ebb226a69875e320e89e2f01b2c0716b6e30e4ea38d15",
+        "0x0873f554690b672ed771c9426ad28f8212d28d620e530dd8bd1c312fca200bf2",
+        "0xb8e8f1f0526fbe0e42f29793ac6d7b1601f94509593720abcb1917f449d08ff2"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20261006,
+        "phase": 2,
+        "stock": "SPYB",
+        "units": "2560610723229030",
+        "costUsd": "2.0",
+        "takeProfitBps": 200,
+        "stopLossBps": 200
+      },
+      "leaf": "0x51a06981f03f52a434950fb0c68d7cd5cf0770d02ca8cda5c11f303fe5108023",
+      "proof": [
+        "0x6747ddf40c1d4439a3db6ea97b19c872f2003d8f2aeeeae8c07c568a51df0928",
+        "0x67b39f21c21f3a4d3dd3c857e709a3841c25d4636a5e38e34cffac9cba90af8e",
+        "0xb8e8f1f0526fbe0e42f29793ac6d7b1601f94509593720abcb1917f449d08ff2"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0xde78cc43946c7fd2bd98300cde9fc534008328b1190beea05fecf88beccbbbf4",
+    "block": 126122408,
+    "epochDay": 20732,
+    "uri": "ipfs://bafkreidbj7gt4a4jvqdleiknoamegj5mvlfsqbdjupbksrvm6h3hfp33ge"
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946",
+  "summary": "ipfs://bafkreiamf6ativor55jiuegn4lunyftjgypu63sygmk44clks6e6bsre3i"
+}

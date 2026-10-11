@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+# The runner's own state and log.
+probes/data/
+# Sealed until the close: the runner's working ledgers. A finished day is published into site/ledger/,
+# which IS kept in the repo (`node src/verify.js site/ledger/...` reads it).
+/ledger/
+*.pending

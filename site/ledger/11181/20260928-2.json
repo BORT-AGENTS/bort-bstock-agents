@@ -1,0 +1,234 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11181",
+  "day": 20260928,
+  "epochDay": 20724,
+  "phase": 2,
+  "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+  "block": "124587033",
+  "root": "0x82e57d3ecd3a4534e79eeaa6387d61f27e7fc5ec9cf3c6d9fa750e3cd7c3aa6a",
+  "pages": [
+    {
+      "page": {
+        "kind": "market",
+        "day": 20260928,
+        "phase": 2,
+        "tokenId": "11181",
+        "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+        "block": "124587033",
+        "takenAt": "2026-09-28T20:15:44.624Z",
+        "session": {
+          "open": true,
+          "market": "postmarket",
+          "reason": null,
+          "nextOpen": "1790640300000",
+          "nextClose": "1790639940000"
+        }
+      },
+      "leaf": "0x87a41ce7b1dda4e4376c0948b48c3bd19063d67361b6b18ec3a19cf92ead636b",
+      "proof": [
+        "0x769b650c3fbc059712accc4cd9eab0bb446ba45cd955e0a024719d4fa5621a6c",
+        "0x66f4e1557734995917817370c1c399633d0024c931a07e9f6d8b572aa10e2290",
+        "0xb0bf3de802e8169292d9cbf26192856cafb31d1fa13c1300c20ec393c727577e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "NVDAB",
+        "underlying": "NVDA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "229.1181665459678326131",
+          "sharesMultiplier": "1.000778223752807865"
+        },
+        "ondo": {
+          "symbol": "NVDAon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "229.172414619546546444",
+          "sharesMultiplier": "1.0017152487959898",
+          "referencePrice": "228.78625"
+        },
+        "impact1000UsdPct": "0.0018"
+      },
+      "leaf": "0x97ca8b532a389b27a3fe4c714acc07d388ee8f554e8527e582bf81950792a448",
+      "proof": [
+        "0x8c7cd3d5916ec95b8ac876a5bbf279c0ae05cfbdfc9d5059038c5c3b25d08ea5",
+        "0x992b18a1e5ce2ba21b5fd86ce91c94f9957cb0e719172807cc922182af676e95",
+        "0x72d2f6e7ffa85554c84908eabf4692b4c8f9410f9f53ae0760bab06d7e30f597"
+      ]
+    },
+    {
+      "page": {
+        "kind": "note",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "NVDAB",
+        "position": {
+          "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+          "balance": "64978029922643513",
+          "block": "124587033"
+        },
+        "text": "The desk holds 0.064978 NVDAB, about 14.89 USD at 229.12 per token (0.065029 NVDA shares at a multiplier of 1.000778223752807865). Ondo's NVDAon is in its postmarket session, reference price 228.78625. A 1,000 USD buy moves the NVDAB/USDT pool by 0.0018%.",
+        "footer": "This is a record of what this agent holds and observed. It is not investment advice and not a recommendation to buy or sell anything."
+      },
+      "leaf": "0x8c7cd3d5916ec95b8ac876a5bbf279c0ae05cfbdfc9d5059038c5c3b25d08ea5",
+      "proof": [
+        "0x97ca8b532a389b27a3fe4c714acc07d388ee8f554e8527e582bf81950792a448",
+        "0x992b18a1e5ce2ba21b5fd86ce91c94f9957cb0e719172807cc922182af676e95",
+        "0x72d2f6e7ffa85554c84908eabf4692b4c8f9410f9f53ae0760bab06d7e30f597"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "QQQB",
+        "underlying": "QQQ",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "737.07387266484884172582",
+          "sharesMultiplier": "1.000724838657573033"
+        },
+        "ondo": {
+          "symbol": "QQQon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "739.444456717052280539",
+          "sharesMultiplier": "1.004082430180208355",
+          "referencePrice": "736.374878"
+        },
+        "impact1000UsdPct": "0.0032"
+      },
+      "leaf": "0x769b650c3fbc059712accc4cd9eab0bb446ba45cd955e0a024719d4fa5621a6c",
+      "proof": [
+        "0x87a41ce7b1dda4e4376c0948b48c3bd19063d67361b6b18ec3a19cf92ead636b",
+        "0x66f4e1557734995917817370c1c399633d0024c931a07e9f6d8b572aa10e2290",
+        "0xb0bf3de802e8169292d9cbf26192856cafb31d1fa13c1300c20ec393c727577e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "note",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "QQQB",
+        "position": {
+          "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+          "balance": "20381201458984645",
+          "block": "124587033"
+        },
+        "text": "The desk holds 0.020381 QQQB, about 15.02 USD at 737.07 per token (0.020396 QQQ shares at a multiplier of 1.000724838657573033). Ondo's QQQon is in its postmarket session, reference price 736.374878. A 1,000 USD buy moves the QQQB/USDT pool by 0.0032%.",
+        "footer": "This is a record of what this agent holds and observed. It is not investment advice and not a recommendation to buy or sell anything."
+      },
+      "leaf": "0x1e331df4ca21e10211180cbf7a1b8c2130186200695a9827c5678de54629a9ea",
+      "proof": [
+        "0x5e4d08a21108407c763acb566725029cfca86d115882020ea7f55b263e3b1f6b",
+        "0x8104ab8717985ecdd5bfc5db0dfd5f8ed21787f973a7b4e38d45b15b59271a63",
+        "0xb0bf3de802e8169292d9cbf26192856cafb31d1fa13c1300c20ec393c727577e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "TSLAB",
+        "underlying": "TSLA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "357.47",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "TSLAon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "357.2775",
+          "sharesMultiplier": "1",
+          "referencePrice": "357.143333"
+        },
+        "impact1000UsdPct": "0.0050"
+      },
+      "leaf": "0xd06d3f3a8b6c8b82ef950e9330ed5b8e64aa13a76d37caf8ce9c41421ecf2cb3",
+      "proof": [
+        "0xa42c6e56a760f7ec0d5b5b9332e7e5ccde9ce5775afde389d55a9dbe251ecf61",
+        "0xce8be1e2dbbe2b1f3ea458445b7402c3ced2f239b1ccdc88240e3b90cd1bb757",
+        "0x72d2f6e7ffa85554c84908eabf4692b4c8f9410f9f53ae0760bab06d7e30f597"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "SPYB",
+        "underlying": "SPY",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "767.44522827526020717372",
+          "sharesMultiplier": "1.001729792036835231"
+        },
+        "ondo": {
+          "symbol": "SPYon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "772.532437204741159833",
+          "sharesMultiplier": "1.009473072784042724",
+          "referencePrice": "765.2705"
+        },
+        "impact1000UsdPct": "0.0052"
+      },
+      "leaf": "0xa42c6e56a760f7ec0d5b5b9332e7e5ccde9ce5775afde389d55a9dbe251ecf61",
+      "proof": [
+        "0xd06d3f3a8b6c8b82ef950e9330ed5b8e64aa13a76d37caf8ce9c41421ecf2cb3",
+        "0xce8be1e2dbbe2b1f3ea458445b7402c3ced2f239b1ccdc88240e3b90cd1bb757",
+        "0x72d2f6e7ffa85554c84908eabf4692b4c8f9410f9f53ae0760bab06d7e30f597"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20260928,
+        "phase": 2,
+        "stock": "MUB",
+        "underlying": "MU",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "1053.67327094199083109668",
+          "sharesMultiplier": "1.000107512568805603"
+        },
+        "ondo": {
+          "symbol": "MUon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "1053.935388411520670837",
+          "sharesMultiplier": "1.001121237525844732",
+          "referencePrice": "1052.405714"
+        },
+        "impact1000UsdPct": "1.1861"
+      },
+      "leaf": "0x5e4d08a21108407c763acb566725029cfca86d115882020ea7f55b263e3b1f6b",
+      "proof": [
+        "0x1e331df4ca21e10211180cbf7a1b8c2130186200695a9827c5678de54629a9ea",
+        "0x8104ab8717985ecdd5bfc5db0dfd5f8ed21787f973a7b4e38d45b15b59271a63",
+        "0xb0bf3de802e8169292d9cbf26192856cafb31d1fa13c1300c20ec393c727577e"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0x1c4f092369b12215d1a792fb4035a3b715cbafd349489e58ec285d96ce64d3ad",
+    "block": 124587057,
+    "epochDay": 20724
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946"
+}

@@ -1,0 +1,371 @@
+{
+  "format": "desk-notes-index/1",
+  "agents": {
+    "11181": [
+      {
+        "day": 20261006,
+        "phases": [
+          {
+            "phase": 1,
+            "file": "11181/20261006-1.json",
+            "root": "0xe07f02c17cd0170e078791a6a279ff712bc50eb6a800a7910e0e936ece7cf49b",
+            "epochDay": 20732,
+            "tx": "0xfc210efa44203eb12dd61a1ca84dacdc9e2d57a0929f925c45a0bf9602428359",
+            "uri": "desk-notes:11181/20261006-1",
+            "summary": null,
+            "pages": 22,
+            "notes": [
+              "QQQB",
+              "SPYB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          },
+          {
+            "phase": 2,
+            "file": "11181/20261006-2.json",
+            "root": "0xc7cbb11fa2ac55477a8597f8367cd0f0e72800203ac03d9100d4a5ad7dac134d",
+            "epochDay": 20732,
+            "tx": "0xbc2c956657b529edc778d2fc5c2b8ff119b2787f12ad5760c738efa26f10baf9",
+            "uri": "ipfs://bafybeih3wj5wwcvhm6ejvbje6f3oyexy2fzp7nnamito7sjftm2s4g36aa",
+            "summary": "ipfs://bafkreig5twqu4lxkhxor4omlf5dooouq6bqvy5mzqtgjaoxnu7yhlmo77y",
+            "pages": 41,
+            "notes": [
+              "QQQB",
+              "SPYB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": {
+              "held": 2,
+              "total": 2
+            }
+          }
+        ]
+      },
+      {
+        "day": 20261002,
+        "phases": [
+          {
+            "phase": 1,
+            "file": "11181/20261002-1.json",
+            "root": "0xf459f54f63569d88dff8248090d9f82b012821126c62248fd4ab88b9384641d7",
+            "epochDay": 20728,
+            "tx": "0x26d1e990294f3038aee5badefd93a805e78f61dc9155001b1081d3185578a027",
+            "uri": "desk-notes:11181/20261002-1",
+            "summary": null,
+            "pages": 22,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          },
+          {
+            "phase": 2,
+            "file": "11181/20261002-2.json",
+            "root": "0x194d4918cb88e3b86d8766e1f5bc22997b18e031451d00cfa64a309c65e254e9",
+            "epochDay": 20728,
+            "tx": "0x65d5935478e322d751de3e4c4c472bc1058df5cbe72e69db460ea1b27b305c15",
+            "uri": "ipfs://bafkreifotitfgfaq4zyviwosml55hxbcr2ptboag4hyvwvi62egzyozyyq",
+            "summary": "ipfs://bafkreigsl77l4eowcg5jvqeisxsbhonztvdteiyczizgo6ybwu5z26g2me",
+            "pages": 41,
+            "notes": [],
+            "bought": [],
+            "exits": [
+              "QQQB (take-profit)",
+              "NVDAB (take-profit)"
+            ],
+            "claims": {
+              "held": 1,
+              "total": 2
+            }
+          }
+        ]
+      },
+      {
+        "day": 20261001,
+        "phases": [
+          {
+            "phase": 1,
+            "file": "11181/20261001-1.json",
+            "root": "0x6a23a87019189213664002e80979305fb0e0cc2d47aaab2edaf55eb62e3a8c0f",
+            "epochDay": 20727,
+            "tx": "0xb541857126ad3e9dc70cbab1f21677836c067e89727f45c838f3337e48caa8dd",
+            "uri": "desk-notes:11181/20261001-1",
+            "summary": null,
+            "pages": 22,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          },
+          {
+            "phase": 2,
+            "file": "11181/20261001-2.json",
+            "root": "0x4fe45b55af7941121006cb475f7d3f80b4bd0c102d51cd515a20a51b58f15a58",
+            "epochDay": 20727,
+            "tx": "0xca1c84c628519f54d50c53633e46ee363cdcb21618fc2996e91fbeaf73d3811a",
+            "uri": "ipfs://bafkreidorwdwt6gpaiqungewfr5cbdaa2ywtdvcwpjvttp4n5j3wdbsbfa",
+            "summary": "ipfs://bafkreido6j7q7quxs2uwfpacednjelubouswqgffcxnw5aphzb4mtjuycq",
+            "pages": 41,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": {
+              "held": 2,
+              "total": 2
+            }
+          }
+        ]
+      },
+      {
+        "day": 20260930,
+        "phases": [
+          {
+            "phase": 1,
+            "file": "11181/20260930-1.json",
+            "root": "0x6a5d86b3762623e0423f153b42fdf79b0f4246848a3b8ef20c35c081499955df",
+            "epochDay": 20726,
+            "tx": "0x236b27210acb662074394594a91441aa161d7ac4d5749872be252f30431c0e13",
+            "uri": null,
+            "summary": null,
+            "pages": 22,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          },
+          {
+            "phase": 2,
+            "file": "11181/20260930-2.json",
+            "root": "0x3bccb5cdbee2ceb512c4fb8208d675fe809e6f2594d88ca030c14614268f169a",
+            "epochDay": 20726,
+            "tx": "0x27c954f09956253026731dbd256a6f0d594905bed590199ec12edb7d956ad787",
+            "uri": null,
+            "summary": null,
+            "pages": 41,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": {
+              "held": 2,
+              "total": 2
+            }
+          }
+        ]
+      },
+      {
+        "day": 20260929,
+        "phases": [
+          {
+            "phase": 1,
+            "file": "11181/20260929-1.json",
+            "root": "0xa4d8d0d600b89a7f3a7cf7dea88d75066e40b1e06cfb2510852d0db699c8b9f9",
+            "epochDay": 20725,
+            "tx": "0x1a623a183f05381a224266d3ee31545343c7a55bad6fd5663123c9457e3a4be6",
+            "uri": null,
+            "summary": null,
+            "pages": 8,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          },
+          {
+            "phase": 2,
+            "file": "11181/20260929-2.json",
+            "root": "0x81935b9856a9d2f3715c72fea4d73c3809fc83de19bd11c2df2a10cfce8f7e47",
+            "epochDay": 20725,
+            "tx": "0xe16cb5b20f7ab8737145d0af059c15e6406f89d9db3311f5a179e9ee412c9372",
+            "uri": null,
+            "summary": null,
+            "pages": 10,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          }
+        ]
+      },
+      {
+        "day": 20260928,
+        "phases": [
+          {
+            "phase": 1,
+            "file": "11181/20260928-1.json",
+            "root": "0x136d6eb12e5e9864a7968e461aa84749e577ee2dc0fd5be51c5299e21e53b940",
+            "epochDay": 20724,
+            "tx": "0x551410127a92c6f4fc6894282757db1e83a0f9d5f660626e22ce9ce8fad6e897",
+            "uri": null,
+            "summary": null,
+            "pages": 8,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          },
+          {
+            "phase": 2,
+            "file": "11181/20260928-2.json",
+            "root": "0x82e57d3ecd3a4534e79eeaa6387d61f27e7fc5ec9cf3c6d9fa750e3cd7c3aa6a",
+            "epochDay": 20724,
+            "tx": "0x1c4f092369b12215d1a792fb4035a3b715cbafd349489e58ec285d96ce64d3ad",
+            "uri": null,
+            "summary": null,
+            "pages": 8,
+            "notes": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          }
+        ]
+      }
+    ],
+    "11182": [
+      {
+        "day": 20261006,
+        "phases": [
+          {
+            "phase": 2,
+            "file": "11182/20261006-2.json",
+            "root": "0xe6079dd210a66e1ddf6ad84f0322e9170b1abf33cbf1ad28d9b113b2e79efdae",
+            "epochDay": 20732,
+            "tx": "0xde78cc43946c7fd2bd98300cde9fc534008328b1190beea05fecf88beccbbbf4",
+            "uri": "ipfs://bafkreidbj7gt4a4jvqdleiknoamegj5mvlfsqbdjupbksrvm6h3hfp33ge",
+            "summary": "ipfs://bafkreiamf6ativor55jiuegn4lunyftjgypu63sygmk44clks6e6bsre3i",
+            "pages": 7,
+            "notes": [],
+            "bought": [
+              "QQQB",
+              "SPYB"
+            ],
+            "exits": [
+              "NVDAB (take-profit)",
+              "QQQB (take-profit)"
+            ],
+            "claims": null
+          }
+        ]
+      },
+      {
+        "day": 20261002,
+        "phases": [
+          {
+            "phase": 2,
+            "file": "11182/20261002-2.json",
+            "root": "0x8613abbbc305687bb801cf193692622e65910941c488ffe6cff365a63a5343cc",
+            "epochDay": 20728,
+            "tx": "0xddc7635ab47aad1550151e1ee219ab7d2310323bba81d8f69f492d6af7bc9994",
+            "uri": "ipfs://bafkreiaczmg7k53v7456a4l4gputc2ti36osevppvds3fzpjbx6r4rbdca",
+            "summary": "ipfs://bafkreifni46k7euyb56mgdql6x6akbk7u64ct7sybyje6ik4kbb5o65sze",
+            "pages": 3,
+            "notes": [],
+            "bought": [],
+            "exits": [],
+            "claims": null
+          }
+        ]
+      },
+      {
+        "day": 20261001,
+        "phases": [
+          {
+            "phase": 2,
+            "file": "11182/20261001-2.json",
+            "root": "0x47f322c2e46a544276e6f1b3bbc5fb54b628d184e91fbf69efaace8c2652cec6",
+            "epochDay": 20727,
+            "tx": "0x752d162bd42c72c06486490289d26aac66f7498b839ebc562601067dd2609813",
+            "uri": "ipfs://bafkreicgneef2badil46f5q4thkv4bynmu3xhekvempee22nvya5hg5ifa",
+            "summary": "ipfs://bafkreih43nogax7rvrmgqblpjczxpvetulbw75rw7ghgmrjilbodigypzi",
+            "pages": 6,
+            "notes": [],
+            "bought": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "exits": [],
+            "claims": null
+          }
+        ]
+      },
+      {
+        "day": 20260930,
+        "phases": [
+          {
+            "phase": 2,
+            "file": "11182/20260930-2.json",
+            "root": "0x30039f999c9240978c57d82061678e0a3284ffc19d19e03422d7dce6d13eb12a",
+            "epochDay": 20726,
+            "tx": "0xe04c12e9c2b0cc4b51de69cc48400fb6abd1d81ef82509e7a0f34484260a2216",
+            "uri": null,
+            "summary": null,
+            "pages": 6,
+            "notes": [],
+            "bought": [
+              "NVDAB",
+              "QQQB"
+            ],
+            "exits": [],
+            "claims": null
+          }
+        ]
+      },
+      {
+        "day": 20260929,
+        "phases": [
+          {
+            "phase": 2,
+            "file": "11182/20260929-2.json",
+            "root": "0x5ec15f3112f12ac20782051992ed65b2f831a0e6ec54a36bf10869b3a6d641a6",
+            "epochDay": 20725,
+            "tx": "0x1829b7d971d492d1f49e0688f19f84cef151713258c3e7aa0363275ac826a5ba",
+            "uri": null,
+            "summary": null,
+            "pages": 5,
+            "notes": [],
+            "bought": [
+              "QQQB"
+            ],
+            "exits": [],
+            "claims": null
+          }
+        ]
+      }
+    ]
+  },
+  "claims": {
+    "11181": {
+      "held": 7,
+      "total": 8,
+      "days": 4
+    }
+  }
+}

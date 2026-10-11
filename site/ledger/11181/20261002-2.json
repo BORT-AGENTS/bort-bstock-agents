@@ -1,0 +1,1414 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11181",
+  "day": 20261002,
+  "epochDay": 20728,
+  "phase": 2,
+  "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+  "block": "125354679",
+  "root": "0x194d4918cb88e3b86d8766e1f5bc22997b18e031451d00cfa64a309c65e254e9",
+  "pages": [
+    {
+      "page": {
+        "kind": "market",
+        "day": 20261002,
+        "phase": 2,
+        "tokenId": "11181",
+        "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+        "block": "125354679",
+        "takenAt": "2026-10-02T20:15:55.002Z",
+        "session": {
+          "open": true,
+          "market": "postmarket",
+          "reason": null,
+          "nextOpen": "1791158700000",
+          "nextClose": "1790985480000"
+        }
+      },
+      "leaf": "0xfd312aa520644a08ac4e812fdeab9f84d180e30b9fdf798699cbe976082424c1",
+      "proof": [
+        "0xfad13c9c1564b53e003e09b85ab08bc1a49582d7d3fab280ceaab3fb4108c1e6",
+        "0x9508a4e4554aae11b6f31d2f00fa0a77db6b3398d36a9a508472a71d491dd118",
+        "0xad32d6ea298f3b9a142dd6a20c1ec07f99873b68316ed1dbac6d4517ceaad6a1",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NVDAB",
+        "underlying": "NVDA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "234.3222133094824335111",
+          "sharesMultiplier": "1.000778223752807865"
+        },
+        "ondo": {
+          "symbol": "NVDAon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "234.421402523237532996",
+          "sharesMultiplier": "1.0017152487959898",
+          "referencePrice": "233.88"
+        },
+        "impact1000UsdPct": "0.0019",
+        "pool": {
+          "perShare": "234.2700",
+          "reference": "233.8800",
+          "premiumBps": "16.7",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0019"
+        }
+      },
+      "leaf": "0x2bec1e7178d14e563b67ae530de70165108a808d686d078fa83029221f9a8869",
+      "proof": [
+        "0x27099776f1c9da04f3a1d5114ecddcb84ac04d5c55d12975ab3da37e28794944",
+        "0xdb78e6bb7b778a786edebc5066c2f12caefd4d43894de29cd747413a1d45b97b",
+        "0x8684d019c94cb7b03b9b9ad359ae274460dca411078cc97663c4dad744214b3b",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "QQQB",
+        "underlying": "QQQ",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "750.53362174479319901967",
+          "sharesMultiplier": "1.000724838657573033"
+        },
+        "ondo": {
+          "symbol": "QQQon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "753.027136607605690952",
+          "sharesMultiplier": "1.004082430180208355",
+          "referencePrice": "749.79"
+        },
+        "impact1000UsdPct": "0.0015",
+        "pool": {
+          "perShare": "749.9334",
+          "reference": "749.7900",
+          "premiumBps": "1.9",
+          "feeBps": "1",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0015"
+        }
+      },
+      "leaf": "0xb8b603102819bf6a6f9805ff1de44a1861c6d16bb798fd018dfe30186dc26691",
+      "proof": [
+        "0xb6ebba8e7e129f4eaee94120588352c8861aab5e763d407cf5d6278ab83da3c6",
+        "0x3f7903040bef08c818ff611fa2dc96c175609c1e66e75a0fb38642127513274a",
+        "0xe8ed3abeee438a5a675ceec5a782395e7dfe6de4733b40e185e7e0f3e823bdc1",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "TSLAB",
+        "underlying": "TSLA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "370.57",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "TSLAon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "370.5575",
+          "sharesMultiplier": "1",
+          "referencePrice": "370.34"
+        },
+        "impact1000UsdPct": "0.0051",
+        "pool": {
+          "perShare": "370.6978",
+          "reference": "370.3400",
+          "premiumBps": "9.7",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0051"
+        }
+      },
+      "leaf": "0x977a10db54c4af112597fab0f09d0a143f1e3c999e80f6613a422e494cc368b6",
+      "proof": [
+        "0x9f996b961668ab411e3781cbed23517160fdf575fdf9a0a3b9a85ddb95a80866",
+        "0x250f442e7725b8047d4aeac702787f8ff418d042371a9211e6ac0a5ef536c993",
+        "0x7b336ae08af983ac64fb86470f7bafbbe99becebe67fdae50954ea23743683c6",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "SPYB",
+        "underlying": "SPY",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "771.59238961429270503006",
+          "sharesMultiplier": "1.001729792036835231"
+        },
+        "ondo": {
+          "symbol": "SPYon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "777.394416876736875143",
+          "sharesMultiplier": "1.009473072784042724",
+          "referencePrice": "769.944167"
+        },
+        "impact1000UsdPct": "0.0059",
+        "pool": {
+          "perShare": "770.0047",
+          "reference": "769.9442",
+          "premiumBps": "0.8",
+          "feeBps": "1",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0059"
+        }
+      },
+      "leaf": "0xfad13c9c1564b53e003e09b85ab08bc1a49582d7d3fab280ceaab3fb4108c1e6",
+      "proof": [
+        "0xfd312aa520644a08ac4e812fdeab9f84d180e30b9fdf798699cbe976082424c1",
+        "0x9508a4e4554aae11b6f31d2f00fa0a77db6b3398d36a9a508472a71d491dd118",
+        "0xad32d6ea298f3b9a142dd6a20c1ec07f99873b68316ed1dbac6d4517ceaad6a1",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "MUB",
+        "underlying": "MU",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "1075.83565342051556325916",
+          "sharesMultiplier": "1.000107512568805603"
+        },
+        "ondo": {
+          "symbol": "MUon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "1076.435588224914031188",
+          "sharesMultiplier": "1.001121237525844732",
+          "referencePrice": "1075.104286"
+        },
+        "impact1000UsdPct": "1.1844",
+        "pool": {
+          "perShare": "1074.2855",
+          "reference": "1075.1043",
+          "premiumBps": "-7.6",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "1.1844"
+        }
+      },
+      "leaf": "0xc466176abb3b515e143c4c1ceb6ab0691d29ce5dd1f4a3da07cff00b3815b59e",
+      "proof": [
+        "0xba0db87423f6bb5f9a94d080aaff09e912ddd4437fe5cc47a90ca6512a56cddd",
+        "0x1540a3618f84a31ca2e84bc2e2aad99988d360548f46a375c4a19359f8bb4f90",
+        "0xef9dc58089fcfcbd0556bc703b93c77f794a0bf35f16a64b53d043d63f5ebcc7",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "GOOGLB",
+        "underlying": "GOOGL",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "343.78427062605730292982",
+          "sharesMultiplier": "1.000478058978107511"
+        },
+        "ondo": {
+          "symbol": "GOOGLon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "344.363588521635983173",
+          "sharesMultiplier": "1.002460326637435211",
+          "referencePrice": "343.3"
+        },
+        "impact1000UsdPct": "0.0050",
+        "pool": {
+          "perShare": "343.5221",
+          "reference": "343.3000",
+          "premiumBps": "6.5",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0050"
+        }
+      },
+      "leaf": "0x4ea211b491d0d983482d12537f5b1c8e0a84db307079346dbac9bc1b1f3a72f2",
+      "proof": [
+        "0x4a63dc3e9608f8a01fdf419865eead25cd998f12b5f385bd25bcd420f81eea08",
+        "0xa2c7eb23e993d6f16ada015d97875ff258701a2c55972fb2814ba83a3bd530d4",
+        "0xd8f3ccce9d9ab676bf77a718a13f148a8146411b49ddb892464ed39e47b28fa8",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "BABAB",
+        "underlying": "BABA",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "106",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "BABAon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "106.868075072436120636",
+          "sharesMultiplier": "1.00891343515435611",
+          "referencePrice": "105.923929"
+        },
+        "impact1000UsdPct": "0.0037",
+        "pool": {
+          "perShare": "106.0877",
+          "reference": "105.9239",
+          "premiumBps": "15.5",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0037"
+        }
+      },
+      "leaf": "0x0bcb4a8971d78e0a05014923c01d420c8191590d5b85a203fda7379cc87236ca",
+      "proof": [
+        "0x0a7b96bb454b8638ac990977549f835769c7d4992fb6846fa3a8aa6bf8330359",
+        "0xfdd740f0c9eca5a84d7ce65bb497c705c2cbef22d6314b8eb125df12692510c5",
+        "0x5927c63114f3b2df0a9a3f40a0778d951447a23ed9428110a39e05e6625cf25d",
+        "0xad32d6ea298f3b9a142dd6a20c1ec07f99873b68316ed1dbac6d4517ceaad6a1",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "AAPLB",
+        "underlying": "AAPL",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "333.78145098870944465028",
+          "sharesMultiplier": "1.000603906075632366"
+        },
+        "ondo": {
+          "symbol": "AAPLon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "334.789327409604834024",
+          "sharesMultiplier": "1.003376073740221058",
+          "referencePrice": "333.538"
+        },
+        "impact1000UsdPct": "0.0047",
+        "pool": {
+          "perShare": "333.1321",
+          "reference": "333.5380",
+          "premiumBps": "-12.2",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0047"
+        }
+      },
+      "leaf": "0x0a7b96bb454b8638ac990977549f835769c7d4992fb6846fa3a8aa6bf8330359",
+      "proof": [
+        "0x0bcb4a8971d78e0a05014923c01d420c8191590d5b85a203fda7379cc87236ca",
+        "0xfdd740f0c9eca5a84d7ce65bb497c705c2cbef22d6314b8eb125df12692510c5",
+        "0x5927c63114f3b2df0a9a3f40a0778d951447a23ed9428110a39e05e6625cf25d",
+        "0xad32d6ea298f3b9a142dd6a20c1ec07f99873b68316ed1dbac6d4517ceaad6a1",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "CRCLB",
+        "underlying": "CRCL",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "81.47",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "CRCLon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "81.455",
+          "sharesMultiplier": "1",
+          "referencePrice": "81.455"
+        },
+        "impact1000UsdPct": "0.0195",
+        "pool": {
+          "perShare": "81.4548",
+          "reference": "81.4550",
+          "premiumBps": "-0.0",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0195"
+        }
+      },
+      "leaf": "0xb6ebba8e7e129f4eaee94120588352c8861aab5e763d407cf5d6278ab83da3c6",
+      "proof": [
+        "0xb8b603102819bf6a6f9805ff1de44a1861c6d16bb798fd018dfe30186dc26691",
+        "0x3f7903040bef08c818ff611fa2dc96c175609c1e66e75a0fb38642127513274a",
+        "0xe8ed3abeee438a5a675ceec5a782395e7dfe6de4733b40e185e7e0f3e823bdc1",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "MSFTB",
+        "underlying": "MSFT",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "518.3602133149373483196",
+          "sharesMultiplier": "1.001313964833366845"
+        },
+        "ondo": {
+          "symbol": "MSFTon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "520.505947676291381159",
+          "sharesMultiplier": "1.005730856892783903",
+          "referencePrice": "517.5"
+        },
+        "impact1000UsdPct": "0.0292",
+        "pool": {
+          "perShare": "516.4752",
+          "reference": "517.5000",
+          "premiumBps": "-19.8",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0292"
+        }
+      },
+      "leaf": "0x1d09ab5a5287bb82a6398bcf0d306055bf151a4288b5d0936c5a2f0208d8be45",
+      "proof": [
+        "0x17d7be3e8a4773d9be230f2cc2710216b95f0b1814d442eacf197f7c20b9baae",
+        "0x7a12149ead75c2682d8b1d4fbfc7b3ad1b51a8b5e82f1dfd4351cac615d5b8ae",
+        "0x55cf23b02b1964a392e1e54f5b421e1bff9008b525d5585a450a248cfe89f567",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "AMZNB",
+        "underlying": "AMZN",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "251.57",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "AMZNon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "251.585",
+          "sharesMultiplier": "1",
+          "referencePrice": "251.55"
+        },
+        "impact1000UsdPct": "0.0468",
+        "pool": {
+          "perShare": "251.2689",
+          "reference": "251.5500",
+          "premiumBps": "-11.2",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0468"
+        }
+      },
+      "leaf": "0xfdd740f0c9eca5a84d7ce65bb497c705c2cbef22d6314b8eb125df12692510c5",
+      "proof": [
+        "0x02757e30d7df47183f7854ed18e581fcd3a6ea6900a9f0d65122f6e458eef0e7",
+        "0x5927c63114f3b2df0a9a3f40a0778d951447a23ed9428110a39e05e6625cf25d",
+        "0xad32d6ea298f3b9a142dd6a20c1ec07f99873b68316ed1dbac6d4517ceaad6a1",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "SNDKB",
+        "underlying": "SNDK",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "1719.2",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "SNDKon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "1719.333333",
+          "sharesMultiplier": "1",
+          "referencePrice": "1719.071429"
+        },
+        "impact1000UsdPct": "0.0455",
+        "pool": {
+          "perShare": "1719.5722",
+          "reference": "1719.0714",
+          "premiumBps": "2.9",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0455"
+        }
+      },
+      "leaf": "0xdc6b4be50680741d234a202b1948194fcabb051acf057346f1ed14b210f7b857",
+      "proof": [
+        "0xf518d5a0880b94aa5aa72c6059f4b7fefb0723474c8cccef1fecb882eabbcb5c",
+        "0x586f188c0f3acb15a7966c76b6f15118721ed9ce19953a63369bcd9f16b728a3",
+        "0x7f6aad57480e8fcc6c529bb95b65988b5aa0d88e023c75b8b170616ac0919f27",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "HOODB",
+        "underlying": "HOOD",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "112.91",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "HOODon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "112.841176",
+          "sharesMultiplier": "1",
+          "referencePrice": "112.856"
+        },
+        "impact1000UsdPct": "0.0625",
+        "pool": {
+          "perShare": "112.8384",
+          "reference": "112.8560",
+          "premiumBps": "-1.6",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0625"
+        }
+      },
+      "leaf": "0xda596f63e7e2a8ef017a82b88627eb30f0978f16c1269ea5f99a8ed76020833a",
+      "proof": [
+        "0xcd24667cc6085d7bb5dcd11289f375d651ba3a442c40ab38699daab36eee9f18",
+        "0xe13364318075c2582f8a414a255be27e835e9d397d80a8b60dcbccf1dbf0bcf9",
+        "0xef9dc58089fcfcbd0556bc703b93c77f794a0bf35f16a64b53d043d63f5ebcc7",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "MSTRB",
+        "underlying": "MSTR",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "160.47",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "MSTRon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "160.46",
+          "sharesMultiplier": "1",
+          "referencePrice": "160.328571"
+        },
+        "impact1000UsdPct": "0.0371",
+        "pool": {
+          "perShare": "160.1614",
+          "reference": "160.3286",
+          "premiumBps": "-10.4",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0371"
+        }
+      },
+      "leaf": "0x5ecdafde82e23e7468c085d8255e4153d631be9be13950fd82a061cebd0120cd",
+      "proof": [
+        "0x5ede070e03a5ac1dd43b5a33a84719b6d28fcfcf301e1240b7d6ac44dc385c75",
+        "0x325c51aa6edc213cfe8d2569c41999166046cacd0e7e43d55d611d207dd658c2",
+        "0xd0e56a0a1a83447d92149eaef48fadbfb741e979b033994f1e9f14856383b000",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "METAB",
+        "underlying": "META",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "728.119001897707315014",
+          "sharesMultiplier": "1.00054829041074495"
+        },
+        "ondo": {
+          "symbol": "METAon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "729.318411674044280743",
+          "sharesMultiplier": "1.002826918305349555",
+          "referencePrice": "727.91"
+        },
+        "impact1000UsdPct": "0.0694",
+        "pool": {
+          "perShare": "728.8597",
+          "reference": "727.9100",
+          "premiumBps": "13.0",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0694"
+        }
+      },
+      "leaf": "0x17d7be3e8a4773d9be230f2cc2710216b95f0b1814d442eacf197f7c20b9baae",
+      "proof": [
+        "0x1d09ab5a5287bb82a6398bcf0d306055bf151a4288b5d0936c5a2f0208d8be45",
+        "0x7a12149ead75c2682d8b1d4fbfc7b3ad1b51a8b5e82f1dfd4351cac615d5b8ae",
+        "0x55cf23b02b1964a392e1e54f5b421e1bff9008b525d5585a450a248cfe89f567",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NFLXB",
+        "underlying": "NFLX",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "67.19",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "NFLXon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "671.22",
+          "sharesMultiplier": "10",
+          "referencePrice": "67.13"
+        },
+        "impact1000UsdPct": "0.1268",
+        "pool": {
+          "perShare": "67.0961",
+          "reference": "67.1300",
+          "premiumBps": "-5.1",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.1268"
+        }
+      },
+      "leaf": "0x5ede070e03a5ac1dd43b5a33a84719b6d28fcfcf301e1240b7d6ac44dc385c75",
+      "proof": [
+        "0x5ecdafde82e23e7468c085d8255e4153d631be9be13950fd82a061cebd0120cd",
+        "0x325c51aa6edc213cfe8d2569c41999166046cacd0e7e43d55d611d207dd658c2",
+        "0xd0e56a0a1a83447d92149eaef48fadbfb741e979b033994f1e9f14856383b000",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "GMEB",
+        "underlying": "GME",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "24.68",
+          "sharesMultiplier": "1"
+        },
+        "ondo": {
+          "symbol": "GMEon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "25.12428465712227753",
+          "sharesMultiplier": "1.017138313418943429",
+          "referencePrice": "24.666154"
+        },
+        "impact1000UsdPct": "0.0463",
+        "pool": {
+          "perShare": "24.6418",
+          "reference": "24.6662",
+          "premiumBps": "-9.9",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0463"
+        }
+      },
+      "leaf": "0x9f996b961668ab411e3781cbed23517160fdf575fdf9a0a3b9a85ddb95a80866",
+      "proof": [
+        "0x977a10db54c4af112597fab0f09d0a143f1e3c999e80f6613a422e494cc368b6",
+        "0x250f442e7725b8047d4aeac702787f8ff418d042371a9211e6ac0a5ef536c993",
+        "0x7b336ae08af983ac64fb86470f7bafbbe99becebe67fdae50954ea23743683c6",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "session",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "TSMB",
+        "underlying": "TSM",
+        "bStock": {
+          "open": true,
+          "reason": "TRADING",
+          "tokenPrice": "473.53727872521223150682",
+          "sharesMultiplier": "1.002110464141050983"
+        },
+        "ondo": {
+          "symbol": "TSMon",
+          "market": "postmarket",
+          "reason": "TRADING",
+          "tokenPrice": "476.90405267799425607",
+          "sharesMultiplier": "1.009320746408453452",
+          "referencePrice": "472.5"
+        },
+        "impact1000UsdPct": "0.0813",
+        "pool": {
+          "perShare": "473.4478",
+          "reference": "472.5000",
+          "premiumBps": "20.1",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0813"
+        }
+      },
+      "leaf": "0xf518d5a0880b94aa5aa72c6059f4b7fefb0723474c8cccef1fecb882eabbcb5c",
+      "proof": [
+        "0xdc6b4be50680741d234a202b1948194fcabb051acf057346f1ed14b210f7b857",
+        "0x586f188c0f3acb15a7966c76b6f15118721ed9ce19953a63369bcd9f16b728a3",
+        "0x7f6aad57480e8fcc6c529bb95b65988b5aa0d88e023c75b8b170616ac0919f27",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NVDAB",
+        "open": {
+          "perShare": "235.5045",
+          "reference": "235.7052"
+        },
+        "close": {
+          "perShare": "234.2700",
+          "reference": "233.8800"
+        },
+        "bStockChangeBps": "-52.4",
+        "referenceChangeBps": "-77.4",
+        "gapBps": "25.0"
+      },
+      "leaf": "0x3554aa8dbe6545664e6818cdad53460892f7d29b10b258ce0fa505fefae27940",
+      "proof": [
+        "0x3f463f3b6a16545031259aa73a563b061e594cf3df72f15a8582cc4e09179726",
+        "0x2ebd2f86050aa3b408a3b29ab715e1b7af711ebbccdbafe6cde7a33b46b5e520",
+        "0x8684d019c94cb7b03b9b9ad359ae274460dca411078cc97663c4dad744214b3b",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "QQQB",
+        "open": {
+          "perShare": "751.6857",
+          "reference": "751.3884"
+        },
+        "close": {
+          "perShare": "749.9334",
+          "reference": "749.7900"
+        },
+        "bStockChangeBps": "-23.3",
+        "referenceChangeBps": "-21.3",
+        "gapBps": "-2.0"
+      },
+      "leaf": "0x48e90420f86176f49aea3282500aea0e46d7843149eee39b0077e2e4389911d2",
+      "proof": [
+        "0x43eb0987a92a3e9414c834ca65c0a14c36f1f9cd65b9058b789ac3b5c7373cd4",
+        "0xf62e7f64d18895bb3c2a8853e862838bbce4efacff259aa74bea1cb6a3b350c2",
+        "0xd8f3ccce9d9ab676bf77a718a13f148a8146411b49ddb892464ed39e47b28fa8",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "TSLAB",
+        "open": {
+          "perShare": "358.2762",
+          "reference": "357.1667"
+        },
+        "close": {
+          "perShare": "370.6978",
+          "reference": "370.3400"
+        },
+        "bStockChangeBps": "346.7",
+        "referenceChangeBps": "368.8",
+        "gapBps": "-22.1"
+      },
+      "leaf": "0xa17024dec01b76599447d25e5cf1463511e24247259c698818726b95ab975cce",
+      "proof": [
+        "0xae5bb9006545351f5bdc22f43d58dcbb290b1d45d04343f7d12ca7f19b447ef7",
+        "0x84c4a5e512be2a22610cee2ca5871c485f1e338bce44da90a38dfa90ae8ae7db",
+        "0xe8ed3abeee438a5a675ceec5a782395e7dfe6de4733b40e185e7e0f3e823bdc1",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "SPYB",
+        "open": {
+          "perShare": "771.1830",
+          "reference": "771.1476"
+        },
+        "close": {
+          "perShare": "770.0047",
+          "reference": "769.9442"
+        },
+        "bStockChangeBps": "-15.3",
+        "referenceChangeBps": "-15.6",
+        "gapBps": "0.3"
+      },
+      "leaf": "0x5b707f56336556406ba264a7287cd3ebf5241e608feee46c9d05ffb656182c40",
+      "proof": [
+        "0x4ee2e5cee71dc546329ce21a50421f0438396a4b9b389938f14be705c370b149",
+        "0xd9c046d6386c522b2b453ae2834220181cbbe8a6b3dfe6f58577a3f5ae8d5f4e",
+        "0xd0e56a0a1a83447d92149eaef48fadbfb741e979b033994f1e9f14856383b000",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "MUB",
+        "open": {
+          "perShare": "1108.8227",
+          "reference": "1110.1733"
+        },
+        "close": {
+          "perShare": "1074.2855",
+          "reference": "1075.1043"
+        },
+        "bStockChangeBps": "-311.5",
+        "referenceChangeBps": "-315.9",
+        "gapBps": "4.4"
+      },
+      "leaf": "0x65cf36b0252492a204c0e850d96cd399805c4dc13d62392355a80923c4d1d3db",
+      "proof": [
+        "0x676796cf477854e49b0ab3f3f937caa7e6a0b28b2803b890d13b7bbe39ac9780",
+        "0xf1885900ab007ff81b4dc1adc4cff18b30f162369e4834be38c728c045caa325",
+        "0x964481e076610bb19c6e02c6e021f70d4747e14b098f5ca3721a789754b76e06",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "GOOGLB",
+        "open": {
+          "perShare": "340.7385",
+          "reference": "341.2182"
+        },
+        "close": {
+          "perShare": "343.5221",
+          "reference": "343.3000"
+        },
+        "bStockChangeBps": "81.7",
+        "referenceChangeBps": "61.0",
+        "gapBps": "20.7"
+      },
+      "leaf": "0x784d3b74916e128b432cc34c2f35b03c103fedcf96e09cbd87cb55f0ad532365",
+      "proof": [
+        "0x6d7d2cc2b0ec30a7e9215461e61658916828bda3d214fbe9e1df5229259b2259",
+        "0xc948550f044d7b60a13f6e8ba0b49c4b5e3e71d5f68b74f09ff82ce5ee6ca304",
+        "0x964481e076610bb19c6e02c6e021f70d4747e14b098f5ca3721a789754b76e06",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "BABAB",
+        "open": {
+          "perShare": "106.1768",
+          "reference": "106.1022"
+        },
+        "close": {
+          "perShare": "106.0877",
+          "reference": "105.9239"
+        },
+        "bStockChangeBps": "-8.4",
+        "referenceChangeBps": "-16.8",
+        "gapBps": "8.4"
+      },
+      "leaf": "0xf889b93db43975092ebfc821f1a2ac190c6cb7955197e5da3ccf6f8b32b8a53e",
+      "proof": [
+        "0xf6fa9c1a63c801eff1380f348570732f63f10304617326b99a6259318cae3f0b",
+        "0x774884476882b8099f235f88540054f2334e2e7d5815f5eb86073fdedaa11ac4",
+        "0x7f6aad57480e8fcc6c529bb95b65988b5aa0d88e023c75b8b170616ac0919f27",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "AAPLB",
+        "open": {
+          "perShare": "331.5861",
+          "reference": "332.1550"
+        },
+        "close": {
+          "perShare": "333.1321",
+          "reference": "333.5380"
+        },
+        "bStockChangeBps": "46.6",
+        "referenceChangeBps": "41.6",
+        "gapBps": "5.0"
+      },
+      "leaf": "0x4a63dc3e9608f8a01fdf419865eead25cd998f12b5f385bd25bcd420f81eea08",
+      "proof": [
+        "0x4ea211b491d0d983482d12537f5b1c8e0a84db307079346dbac9bc1b1f3a72f2",
+        "0xa2c7eb23e993d6f16ada015d97875ff258701a2c55972fb2814ba83a3bd530d4",
+        "0xd8f3ccce9d9ab676bf77a718a13f148a8146411b49ddb892464ed39e47b28fa8",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "CRCLB",
+        "open": {
+          "perShare": "85.7665",
+          "reference": "85.7400"
+        },
+        "close": {
+          "perShare": "81.4548",
+          "reference": "81.4550"
+        },
+        "bStockChangeBps": "-502.7",
+        "referenceChangeBps": "-499.8",
+        "gapBps": "-3.0"
+      },
+      "leaf": "0x676796cf477854e49b0ab3f3f937caa7e6a0b28b2803b890d13b7bbe39ac9780",
+      "proof": [
+        "0x65cf36b0252492a204c0e850d96cd399805c4dc13d62392355a80923c4d1d3db",
+        "0xf1885900ab007ff81b4dc1adc4cff18b30f162369e4834be38c728c045caa325",
+        "0x964481e076610bb19c6e02c6e021f70d4747e14b098f5ca3721a789754b76e06",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "MSFTB",
+        "open": {
+          "perShare": "517.6083",
+          "reference": "518.5700"
+        },
+        "close": {
+          "perShare": "516.4752",
+          "reference": "517.5000"
+        },
+        "bStockChangeBps": "-21.9",
+        "referenceChangeBps": "-20.6",
+        "gapBps": "-1.3"
+      },
+      "leaf": "0x11f8a396adc558377f6da721a0e2674b13713f8987ca15f357016c46beb062ce",
+      "proof": [
+        "0x154c7b5b833023cdd2454a0f1b1c96171a3d4ba915ffa9cb397b701881787e3b",
+        "0x18f7d3b075a8094d0f00dc660d4c5f9fd553663b14b13ad246cb2f3266553f9a",
+        "0x55cf23b02b1964a392e1e54f5b421e1bff9008b525d5585a450a248cfe89f567",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "AMZNB",
+        "open": {
+          "perShare": "251.1383",
+          "reference": "251.8462"
+        },
+        "close": {
+          "perShare": "251.2689",
+          "reference": "251.5500"
+        },
+        "bStockChangeBps": "5.2",
+        "referenceChangeBps": "-11.8",
+        "gapBps": "17.0"
+      },
+      "leaf": "0xcd24667cc6085d7bb5dcd11289f375d651ba3a442c40ab38699daab36eee9f18",
+      "proof": [
+        "0xda596f63e7e2a8ef017a82b88627eb30f0978f16c1269ea5f99a8ed76020833a",
+        "0xe13364318075c2582f8a414a255be27e835e9d397d80a8b60dcbccf1dbf0bcf9",
+        "0xef9dc58089fcfcbd0556bc703b93c77f794a0bf35f16a64b53d043d63f5ebcc7",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "SNDKB",
+        "open": {
+          "perShare": "1779.4708",
+          "reference": "1781.5000"
+        },
+        "close": {
+          "perShare": "1719.5722",
+          "reference": "1719.0714"
+        },
+        "bStockChangeBps": "-336.6",
+        "referenceChangeBps": "-350.4",
+        "gapBps": "13.8"
+      },
+      "leaf": "0xf6fa9c1a63c801eff1380f348570732f63f10304617326b99a6259318cae3f0b",
+      "proof": [
+        "0xf889b93db43975092ebfc821f1a2ac190c6cb7955197e5da3ccf6f8b32b8a53e",
+        "0x774884476882b8099f235f88540054f2334e2e7d5815f5eb86073fdedaa11ac4",
+        "0x7f6aad57480e8fcc6c529bb95b65988b5aa0d88e023c75b8b170616ac0919f27",
+        "0x52ffc0d51cc89658c4252bf3e2f6779f9e6a98d1b1e22b587eec98d666d379aa",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "HOODB",
+        "open": {
+          "perShare": "114.0862",
+          "reference": "114.1767"
+        },
+        "close": {
+          "perShare": "112.8384",
+          "reference": "112.8560"
+        },
+        "bStockChangeBps": "-109.4",
+        "referenceChangeBps": "-115.7",
+        "gapBps": "6.3"
+      },
+      "leaf": "0x154c7b5b833023cdd2454a0f1b1c96171a3d4ba915ffa9cb397b701881787e3b",
+      "proof": [
+        "0x11f8a396adc558377f6da721a0e2674b13713f8987ca15f357016c46beb062ce",
+        "0x18f7d3b075a8094d0f00dc660d4c5f9fd553663b14b13ad246cb2f3266553f9a",
+        "0x55cf23b02b1964a392e1e54f5b421e1bff9008b525d5585a450a248cfe89f567",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "MSTRB",
+        "open": {
+          "perShare": "166.2776",
+          "reference": "165.7200"
+        },
+        "close": {
+          "perShare": "160.1614",
+          "reference": "160.3286"
+        },
+        "bStockChangeBps": "-367.8",
+        "referenceChangeBps": "-325.3",
+        "gapBps": "-42.5"
+      },
+      "leaf": "0x6d7d2cc2b0ec30a7e9215461e61658916828bda3d214fbe9e1df5229259b2259",
+      "proof": [
+        "0x784d3b74916e128b432cc34c2f35b03c103fedcf96e09cbd87cb55f0ad532365",
+        "0xc948550f044d7b60a13f6e8ba0b49c4b5e3e71d5f68b74f09ff82ce5ee6ca304",
+        "0x964481e076610bb19c6e02c6e021f70d4747e14b098f5ca3721a789754b76e06",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "METAB",
+        "open": {
+          "perShare": "731.3775",
+          "reference": "733.1533"
+        },
+        "close": {
+          "perShare": "728.8597",
+          "reference": "727.9100"
+        },
+        "bStockChangeBps": "-34.4",
+        "referenceChangeBps": "-71.5",
+        "gapBps": "37.1"
+      },
+      "leaf": "0xba0db87423f6bb5f9a94d080aaff09e912ddd4437fe5cc47a90ca6512a56cddd",
+      "proof": [
+        "0xc466176abb3b515e143c4c1ceb6ab0691d29ce5dd1f4a3da07cff00b3815b59e",
+        "0x1540a3618f84a31ca2e84bc2e2aad99988d360548f46a375c4a19359f8bb4f90",
+        "0xef9dc58089fcfcbd0556bc703b93c77f794a0bf35f16a64b53d043d63f5ebcc7",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NFLXB",
+        "open": {
+          "perShare": "68.0612",
+          "reference": "68.1225"
+        },
+        "close": {
+          "perShare": "67.0961",
+          "reference": "67.1300"
+        },
+        "bStockChangeBps": "-141.8",
+        "referenceChangeBps": "-145.7",
+        "gapBps": "3.9"
+      },
+      "leaf": "0x80bb49addcbe0c28ce1140d34ca42319e35519571c1e1bb69221973e1bd289ec",
+      "proof": [
+        "0x7fb4bdd07615bf1538ea583eeeb372ee4ac350d73ceeab4fffb01beccbb286f2",
+        "0x4b7741aa4e8352ea35c18e1073ccf46208ab1573e632ed4ad82652313240d250",
+        "0x7b336ae08af983ac64fb86470f7bafbbe99becebe67fdae50954ea23743683c6",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "GMEB",
+        "open": {
+          "perShare": "24.2391",
+          "reference": "24.2883"
+        },
+        "close": {
+          "perShare": "24.6418",
+          "reference": "24.6662"
+        },
+        "bStockChangeBps": "166.1",
+        "referenceChangeBps": "155.6",
+        "gapBps": "10.5"
+      },
+      "leaf": "0x27099776f1c9da04f3a1d5114ecddcb84ac04d5c55d12975ab3da37e28794944",
+      "proof": [
+        "0x2bec1e7178d14e563b67ae530de70165108a808d686d078fa83029221f9a8869",
+        "0xdb78e6bb7b778a786edebc5066c2f12caefd4d43894de29cd747413a1d45b97b",
+        "0x8684d019c94cb7b03b9b9ad359ae274460dca411078cc97663c4dad744214b3b",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "tracking",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "TSMB",
+        "open": {
+          "perShare": "464.1962",
+          "reference": "465.6250"
+        },
+        "close": {
+          "perShare": "473.4478",
+          "reference": "472.5000"
+        },
+        "bStockChangeBps": "199.3",
+        "referenceChangeBps": "147.7",
+        "gapBps": "51.7"
+      },
+      "leaf": "0x7fb4bdd07615bf1538ea583eeeb372ee4ac350d73ceeab4fffb01beccbb286f2",
+      "proof": [
+        "0x80bb49addcbe0c28ce1140d34ca42319e35519571c1e1bb69221973e1bd289ec",
+        "0x4b7741aa4e8352ea35c18e1073ccf46208ab1573e632ed4ad82652313240d250",
+        "0x7b336ae08af983ac64fb86470f7bafbbe99becebe67fdae50954ea23743683c6",
+        "0x861c0b75b286bcccdb933fd416f986f33711fec37c47c0042f1a3d4b3f555cd0",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "outcome",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NVDAB",
+        "note": {
+          "day": 20261002,
+          "phase": 1,
+          "root": "0xf459f54f63569d88dff8248090d9f82b012821126c62248fd4ab88b9384641d7"
+        },
+        "open": {
+          "perShare": "235.5045",
+          "reference": "235.7052",
+          "premiumBps": "-8.5",
+          "feeBps": "25",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0014",
+          "block": "125296850"
+        },
+        "close": {
+          "perShare": "234.2700",
+          "reference": "233.8800",
+          "premiumBps": "16.7",
+          "feeBps": "25",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0019",
+          "block": "125354679"
+        },
+        "bStockChangeBps": "-52.4",
+        "referenceChangeBps": "-77.4",
+        "trackingGapBps": "25.0",
+        "premiumChangeBps": "25.2",
+        "claim": {
+          "bandBps": 10,
+          "gapBps": "25.0",
+          "held": false
+        },
+        "text": "Per share, NVDAB moved -0.52% from before the open to after the close and the real NVDA moved -0.77%: a tracking gap of 25.0 bps. Its premium went from -0.09% to +0.17%. Claim missed: within 10 bps either way, the gap was 25.0 bps."
+      },
+      "leaf": "0xae5bb9006545351f5bdc22f43d58dcbb290b1d45d04343f7d12ca7f19b447ef7",
+      "proof": [
+        "0xa17024dec01b76599447d25e5cf1463511e24247259c698818726b95ab975cce",
+        "0x84c4a5e512be2a22610cee2ca5871c485f1e338bce44da90a38dfa90ae8ae7db",
+        "0xe8ed3abeee438a5a675ceec5a782395e7dfe6de4733b40e185e7e0f3e823bdc1",
+        "0x03bbe5d1b76c81667bee3ddfe8a9b19b0af12d0658f41f413983cd11fabc0151",
+        "0xbcb6f23d7e187e53dd8e4e23f1c593658245eb48d490238123a69fed4045e0ff"
+      ]
+    },
+    {
+      "page": {
+        "kind": "outcome",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "QQQB",
+        "note": {
+          "day": 20261002,
+          "phase": 1,
+          "root": "0xf459f54f63569d88dff8248090d9f82b012821126c62248fd4ab88b9384641d7"
+        },
+        "open": {
+          "perShare": "751.6857",
+          "reference": "751.3884",
+          "premiumBps": "4.0",
+          "feeBps": "1",
+          "session": "premarket",
+          "impact1000UsdPct": "0.0191",
+          "block": "125296850"
+        },
+        "close": {
+          "perShare": "749.9334",
+          "reference": "749.7900",
+          "premiumBps": "1.9",
+          "feeBps": "1",
+          "session": "postmarket",
+          "impact1000UsdPct": "0.0015",
+          "block": "125354679"
+        },
+        "bStockChangeBps": "-23.3",
+        "referenceChangeBps": "-21.3",
+        "trackingGapBps": "-2.0",
+        "premiumChangeBps": "-2.1",
+        "claim": {
+          "bandBps": 10,
+          "gapBps": "-2.0",
+          "held": true
+        },
+        "text": "Per share, QQQB moved -0.23% from before the open to after the close and the real QQQ moved -0.21%: a tracking gap of -2.0 bps. Its premium went from +0.04% to +0.02%. Claim held: within 10 bps either way, the gap was -2.0 bps."
+      },
+      "leaf": "0x43eb0987a92a3e9414c834ca65c0a14c36f1f9cd65b9058b789ac3b5c7373cd4",
+      "proof": [
+        "0x48e90420f86176f49aea3282500aea0e46d7843149eee39b0077e2e4389911d2",
+        "0xf62e7f64d18895bb3c2a8853e862838bbce4efacff259aa74bea1cb6a3b350c2",
+        "0xd8f3ccce9d9ab676bf77a718a13f148a8146411b49ddb892464ed39e47b28fa8",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "exit",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "QQQB",
+        "exit": "take-profit",
+        "reason": "up 2.35%, at or past the 2.00% take-profit",
+        "costUsd": "14.9981",
+        "valueUsd": "15.3505",
+        "premiumBps": "15.7",
+        "tx": "0xa59c9848ea3773f6c778cf4ae1672c7b696ed10d15cb0c568dc9be052d57e4dd",
+        "at": "2026-10-02T13:04:32.285Z"
+      },
+      "leaf": "0x3f463f3b6a16545031259aa73a563b061e594cf3df72f15a8582cc4e09179726",
+      "proof": [
+        "0x3554aa8dbe6545664e6818cdad53460892f7d29b10b258ce0fa505fefae27940",
+        "0x2ebd2f86050aa3b408a3b29ab715e1b7af711ebbccdbafe6cde7a33b46b5e520",
+        "0x8684d019c94cb7b03b9b9ad359ae274460dca411078cc97663c4dad744214b3b",
+        "0x041aecf0d6f7e709f23debc3956dbe5e3cb8d7f94fe64e433f7f9706b10b92fa",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    },
+    {
+      "page": {
+        "kind": "exit",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NVDAB",
+        "exit": "take-profit",
+        "reason": "up 2.43%, at or past the 2.00% take-profit",
+        "costUsd": "15.0034",
+        "valueUsd": "15.3678",
+        "premiumBps": "43.7",
+        "tx": "0x5934cc6f02a3c0f2db829af86639cae5ca2479fa46a3286a29561e563c587aa9",
+        "at": "2026-10-02T13:50:00.241Z"
+      },
+      "leaf": "0x4ee2e5cee71dc546329ce21a50421f0438396a4b9b389938f14be705c370b149",
+      "proof": [
+        "0x5b707f56336556406ba264a7287cd3ebf5241e608feee46c9d05ffb656182c40",
+        "0xd9c046d6386c522b2b453ae2834220181cbbe8a6b3dfe6f58577a3f5ae8d5f4e",
+        "0xd0e56a0a1a83447d92149eaef48fadbfb741e979b033994f1e9f14856383b000",
+        "0xf770a9e43d44cd49e7c6169de23d9b3dfc52221d0aa8841f10b2507dd44264e8",
+        "0x0029df34f0cec25517a639a6c99a0e906e2721bd61ba33928b4796e7af311abe",
+        "0xac42811af7474982c6fb445a2ec01f4af30419d6e7afc2fdc23f60c47450511e"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0x65d5935478e322d751de3e4c4c472bc1058df5cbe72e69db460ea1b27b305c15",
+    "block": 125354752,
+    "epochDay": 20728,
+    "uri": "ipfs://bafkreifotitfgfaq4zyviwosml55hxbcr2ptboag4hyvwvi62egzyozyyq"
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946",
+  "summary": "ipfs://bafkreigsl77l4eowcg5jvqeisxsbhonztvdteiyczizgo6ybwu5z26g2me"
+}

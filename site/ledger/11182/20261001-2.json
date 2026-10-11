@@ -1,0 +1,207 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11182",
+  "day": 20261001,
+  "epochDay": 20727,
+  "phase": 2,
+  "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+  "block": "125162824",
+  "root": "0x47f322c2e46a544276e6f1b3bbc5fb54b628d184e91fbf69efaace8c2652cec6",
+  "pages": [
+    {
+      "page": {
+        "kind": "record",
+        "day": 20261001,
+        "phase": 2,
+        "role": "trader",
+        "tokenId": "11182",
+        "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+        "block": "125162824"
+      },
+      "leaf": "0xe980a931d57e5e7bc5291609101b788977b80aa755f0cbb94b0882c1e49735f8",
+      "proof": [
+        "0xebcde74a13a31a7e51b3e6615668547b4306f93a8a8faf8e12df4d11fda8a533",
+        "0x9f4a038ba6b0bab7835ed2327be206991be1d655435af5a06e38ab2b3d9078de"
+      ]
+    },
+    {
+      "page": {
+        "kind": "purchase",
+        "day": 20261001,
+        "phase": 2,
+        "stock": "NVDAB",
+        "from": {
+          "tokenId": "11181",
+          "epochDay": 20727,
+          "phase": 1,
+          "root": "0x6a23a87019189213664002e80979305fb0e0cc2d47aaab2edaf55eb62e3a8c0f"
+        },
+        "noteHash": "0x05396067cf33e7734bf079e4496137908da17d6d5e7bb5d10ea6a6b41c1623dc",
+        "paidTx": "0x0860f325575cdae43609f0309845220514396294735ed002ca43021d1dab88d1",
+        "priceU": "0.02",
+        "verified": true,
+        "rating": {
+          "rank": 12,
+          "of": 18,
+          "score": "29.2",
+          "premiumBps": "19.2",
+          "driftBps": "10.0",
+          "days": 2
+        },
+        "claim": {
+          "bandBps": 25,
+          "basis": "default",
+          "days": 2,
+          "typicalGapBps": null
+        }
+      },
+      "leaf": "0x86964bfb455e86c335b580a75797a23d3421edf71eaeac989cd67c578e53dcee",
+      "proof": [
+        "0x9509f9a7be6718125e2eeeb0ad44c6a8d589c43c83a9bc850f34ea24d3cddf50",
+        "0x5981e7b153ded42672cec56d2b43c3fe71288a9fbcbb683d2e5bc65ec7618ee3",
+        "0x91e29a74c498ea7fb7dbdceb6724f6b1bf5cb1ade66c3ad00dd6c9499001f7c7"
+      ]
+    },
+    {
+      "page": {
+        "kind": "purchase",
+        "day": 20261001,
+        "phase": 2,
+        "stock": "QQQB",
+        "from": {
+          "tokenId": "11181",
+          "epochDay": 20727,
+          "phase": 1,
+          "root": "0x6a23a87019189213664002e80979305fb0e0cc2d47aaab2edaf55eb62e3a8c0f"
+        },
+        "noteHash": "0x38e3f4704dc853d81de4bba87f91d10658f4d25561911a7b326ef1cecd2c29df",
+        "paidTx": "0x44ec3f9fc49355269a3f24253a82b3d9d787fab4820c42cfc051c8fa24875c94",
+        "priceU": "0.02",
+        "verified": true,
+        "rating": {
+          "rank": 2,
+          "of": 18,
+          "score": "13.6",
+          "premiumBps": "3.6",
+          "driftBps": "10.0",
+          "days": 2
+        },
+        "claim": {
+          "bandBps": 25,
+          "basis": "default",
+          "days": 2,
+          "typicalGapBps": null
+        }
+      },
+      "leaf": "0x3e86f8c99146869177718fc4b0e3d04c5fa3b931eacc2cef5fc92f4a91269547",
+      "proof": [
+        "0x07e5d3cbf4c01c5239b60b6f001b4d8c71bb1fe8269140cb512c0ee735fe4e1b",
+        "0x48dc3454c643f2f482999a29533107842c71bf112fafb124f955eb7675d3e33a",
+        "0x91e29a74c498ea7fb7dbdceb6724f6b1bf5cb1ade66c3ad00dd6c9499001f7c7"
+      ]
+    },
+    {
+      "page": {
+        "kind": "decision",
+        "day": 20261001,
+        "phase": 2,
+        "stock": "QQQB",
+        "buy": true,
+        "reason": "one share costs 0.26% under the real share, within the 0.20% limit",
+        "chosen": {
+          "rank": 2,
+          "of": [
+            "NVDAB",
+            "QQQB"
+          ]
+        },
+        "tried": [
+          {
+            "stock": "QQQB",
+            "rank": 2,
+            "buy": true,
+            "reason": "one share costs 0.26% under the real share, within the 0.20% limit",
+            "quote": {
+              "perShare": "740.1686",
+              "reference": "742.1350",
+              "premiumBps": "-26.5",
+              "feeBps": "1",
+              "session": "regular",
+              "impact1000UsdPct": "0.0035"
+            }
+          }
+        ],
+        "quote": {
+          "perShare": "740.1686",
+          "reference": "742.1350",
+          "premiumBps": "-26.5",
+          "feeBps": "1",
+          "session": "regular",
+          "impact1000UsdPct": "0.0035"
+        },
+        "at": "2026-10-01T14:01:15.310Z",
+        "rules": {
+          "maxPremiumBps": "20",
+          "sanityBps": "100"
+        },
+        "bought": "0x35bf140985aa78758d31143991a24a4405f432a7073b7ce2b556e82ed7d4a8f4",
+        "tradeTx": "0x35bf140985aa78758d31143991a24a4405f432a7073b7ce2b556e82ed7d4a8f4",
+        "targets": {
+          "takeProfitBps": 300,
+          "stopLossBps": 300,
+          "from": "note",
+          "tx": "0xf72a23400009ff547c530ee86abe4790f0c98dda80ef617673455080a740daba"
+        }
+      },
+      "leaf": "0x07e5d3cbf4c01c5239b60b6f001b4d8c71bb1fe8269140cb512c0ee735fe4e1b",
+      "proof": [
+        "0x3e86f8c99146869177718fc4b0e3d04c5fa3b931eacc2cef5fc92f4a91269547",
+        "0x48dc3454c643f2f482999a29533107842c71bf112fafb124f955eb7675d3e33a",
+        "0x91e29a74c498ea7fb7dbdceb6724f6b1bf5cb1ade66c3ad00dd6c9499001f7c7"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20261001,
+        "phase": 2,
+        "stock": "NVDAB",
+        "units": "8638968332959126",
+        "costUsd": "2.0",
+        "takeProfitBps": 300,
+        "stopLossBps": 300
+      },
+      "leaf": "0xebcde74a13a31a7e51b3e6615668547b4306f93a8a8faf8e12df4d11fda8a533",
+      "proof": [
+        "0xe980a931d57e5e7bc5291609101b788977b80aa755f0cbb94b0882c1e49735f8",
+        "0x9f4a038ba6b0bab7835ed2327be206991be1d655435af5a06e38ab2b3d9078de"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20261001,
+        "phase": 2,
+        "stock": "QQQB",
+        "units": "5403430104784515",
+        "costUsd": "3.999739505800925012",
+        "takeProfitBps": 300,
+        "stopLossBps": 300
+      },
+      "leaf": "0x9509f9a7be6718125e2eeeb0ad44c6a8d589c43c83a9bc850f34ea24d3cddf50",
+      "proof": [
+        "0x86964bfb455e86c335b580a75797a23d3421edf71eaeac989cd67c578e53dcee",
+        "0x5981e7b153ded42672cec56d2b43c3fe71288a9fbcbb683d2e5bc65ec7618ee3",
+        "0x91e29a74c498ea7fb7dbdceb6724f6b1bf5cb1ade66c3ad00dd6c9499001f7c7"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0x752d162bd42c72c06486490289d26aac66f7498b839ebc562601067dd2609813",
+    "block": 125162837,
+    "epochDay": 20727,
+    "uri": "ipfs://bafkreicgneef2badil46f5q4thkv4bynmu3xhekvempee22nvya5hg5ifa"
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946",
+  "summary": "ipfs://bafkreih43nogax7rvrmgqblpjczxpvetulbw75rw7ghgmrjilbodigypzi"
+}

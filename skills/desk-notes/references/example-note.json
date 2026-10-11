@@ -1,0 +1,54 @@
+{
+  "note": {
+    "kind": "note",
+    "day": 20260930,
+    "phase": 1,
+    "stock": "NVDAB",
+    "position": {
+      "wallet": "0x6A2D3fda52A20D7970aA8a2810385b5aAE373A97",
+      "balance": "64978029922643513",
+      "block": "124912978"
+    },
+    "quote": {
+      "perShare": "228.4150",
+      "reference": "228.6200",
+      "premiumBps": "-9.0",
+      "feeBps": "25",
+      "session": "premarket",
+      "impact1000UsdPct": "0.0011"
+    },
+    "plan": {
+      "units": "64978029922643513",
+      "costUsd": "15003391722523839628",
+      "takeProfitBps": 300,
+      "stopLossBps": 300
+    },
+    "rating": {
+      "rank": 8,
+      "of": 18,
+      "score": "19.0",
+      "premiumBps": "-9.0",
+      "driftBps": "10.0",
+      "days": 1
+    },
+    "claim": {
+      "bandBps": 25,
+      "basis": "default",
+      "days": 1,
+      "typicalGapBps": null
+    },
+    "text": "The desk holds 0.064978 NVDAB, about 14.89 USD at 229.16 per token (0.065029 NVDA shares at a multiplier of 1.000778223752807865). Ondo's NVDAon is in its premarket session, reference price 228.62. A 1,000 USD buy moves the NVDAB/USDT pool by 0.0011%. The pool prices one NVDA share at 228.41 USD, -0.09% against the real share at 228.62 (premarket session); a trade also pays the pool's 0.25% swap fee. The position cost 15.00 USD; the desk sells it at +3.00% or at -3.00% from that. The desk ranks NVDAB 8th of 18 by how closely it tracks the real stock (19.0 bps: 9.0 from the real share now and a typical drift of 10.0 bps, assumed until it has three days of history). Claim: from this note to the close, NVDAB tracks NVDA within 25 bps either way.",
+    "footer": "This is a record of what this agent holds and observed. It is not investment advice and not a recommendation to buy or sell anything."
+  },
+  "proof": [
+    "0xccc02479bf7de273e03caea68d5f1d16dca3f0a92388c26c5682ff30027782cd",
+    "0xb3a66ac80983bd0fd8c3811188b4555e4c1f0b456f89f27e49bbcdcb4a45d6cc",
+    "0x61480d53b73571f5ce1687c5468e48cd822730bbb9d59b39689d4e90d7f3801d",
+    "0xe7d8347ad6ad4ae6c8639dedcda7316e59ccf56fb22cac5e456a01e457cd02c9"
+  ],
+  "root": "0x6a5d86b3762623e0423f153b42fdf79b0f4246848a3b8ef20c35c081499955df",
+  "tokenId": "11181",
+  "epochDay": 20726,
+  "phase": 1,
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946"
+}

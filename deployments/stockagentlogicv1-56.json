@@ -1,0 +1,133 @@
+{
+  "name": "StockAgentLogicV1",
+  "chainId": 56,
+  "address": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946",
+  "deployTx": "0x5c57f1427d4fdfd83136f2160058a6d6a43f69249138fb7ddf3fa88441981e05",
+  "deployBlock": 124507093,
+  "deployer": "0x54E5651a7f62859CcCB5B75613165a69C24ECb4e",
+  "constructorArgs": [
+    "0x15b15df2ffff6653c21c11b93fb8a7718ce854ce",
+    "0x0eC7a7D90A92eB1c86D9A082Ff5b75518ACF4102",
+    "0x907c460b8a9d698e2db460d86ddafa5bb5f12b0a",
+    "0x1b81D678ffb9C0263b24A97847620C99d213eB14",
+    "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997",
+    "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "0x55d398326f99059fF775485246999027B3197955",
+    "0x172fcD41E0913e95784454622d1c3724f546f849",
+    "0xcE24439F2D9C6a2289F741120FE202248B666666"
+  ],
+  "constructorArgsNamed": {
+    "bap578": "0x15b15df2ffff6653c21c11b93fb8a7718ce854ce",
+    "vaultManager": "0x0eC7a7D90A92eB1c86D9A082Ff5b75518ACF4102",
+    "circuitBreaker": "0x907c460b8a9d698e2db460d86ddafa5bb5f12b0a",
+    "router": "0x1b81D678ffb9C0263b24A97847620C99d213eB14",
+    "quoter": "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997",
+    "wbnb": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "usdt": "0x55d398326f99059fF775485246999027B3197955",
+    "bnbUsdPool": "0x172fcD41E0913e95784454622d1c3724f546f849",
+    "paymentToken": "0xcE24439F2D9C6a2289F741120FE202248B666666"
+  },
+  "relayers": [
+    "0x54E5651a7f62859CcCB5B75613165a69C24ECb4e"
+  ],
+  "stocks": [
+    {
+      "symbol": "NVDAB",
+      "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436"
+    },
+    {
+      "symbol": "QQQB",
+      "address": "0x205812cdbed920aff76c6580abd681a46d11efc7"
+    },
+    {
+      "symbol": "TSLAB",
+      "address": "0x5b1910eaad6450e50f816082aa078c41f10c292f"
+    },
+    {
+      "symbol": "SPYB",
+      "address": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8"
+    },
+    {
+      "symbol": "MUB",
+      "address": "0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699"
+    }
+  ],
+  "intendedOwner": "0x78b90b71eF598A13530cF77a3E69CFd8Fb0b24fB",
+  "owner": "0x54E5651a7f62859CcCB5B75613165a69C24ECb4e",
+  "pendingOwner": "0x78b90b71eF598A13530cF77a3E69CFd8Fb0b24fB",
+  "limits": {
+    "buysUsdPerWeek": "10000.0",
+    "paymentsUsdPerWeek": "100.0"
+  },
+  "compiler": {
+    "solc": "0.8.24",
+    "optimizer": {
+      "enabled": true,
+      "runs": 50
+    },
+    "evmVersion": "paris"
+  },
+  "source": {
+    "path": "contracts/StockAgentLogicV1.sol",
+    "keccak256": "0x50d355b9b1a3c29b1f5a2d9b5461887d3018679148b3904c6c891a9dfe359895",
+    "commit": "fde44fd49ee8fbd9290a15e9aa3cb57e2f1d79ad",
+    "uncommitted": false
+  },
+  "transactions": [
+    {
+      "step": "deploy",
+      "hash": "0x5c57f1427d4fdfd83136f2160058a6d6a43f69249138fb7ddf3fa88441981e05",
+      "block": 124507093,
+      "gasUsed": "5435305"
+    },
+    {
+      "step": "setRelayer 0x54E5651a7f62859CcCB5B75613165a69C24ECb4e",
+      "hash": "0x3af6b6220f62407ffe850986f6e5e5952d56020467fde34ed682064820dd34fc",
+      "block": 124507117,
+      "gasUsed": "48004"
+    },
+    {
+      "step": "setStock NVDAB fee 2500",
+      "hash": "0xea13c41b404121138542c02088c26d796d183499ffb6093c4535c0a7f429d1eb",
+      "block": 124507127,
+      "gasUsed": "73650"
+    },
+    {
+      "step": "setStock QQQB fee 100",
+      "hash": "0x90fbbaca49c6e5071ef87cbaa3a2b55474a47d2afab24dcec510d4b2ea7f6840",
+      "block": 124507150,
+      "gasUsed": "73598"
+    },
+    {
+      "step": "setStock TSLAB fee 2500",
+      "hash": "0x0232d6f7f32510f071a49d60e92f0ccd7981f92f30ec84eb20e9d1f146aacc88",
+      "block": 124507158,
+      "gasUsed": "73650"
+    },
+    {
+      "step": "setStock SPYB fee 100",
+      "hash": "0x1b15ebd2506bbbe8a1a10fc161688a46c44af745f07146f5c7bf583546150e3e",
+      "block": 124507178,
+      "gasUsed": "73598"
+    },
+    {
+      "step": "setStock MUB fee 2500",
+      "hash": "0xffffb47661401975b2999b1d8d99b2a9e09934f5316dbf104066740f9d776ec9",
+      "block": 124507186,
+      "gasUsed": "73650"
+    },
+    {
+      "step": "lowerMaxGasPrice 1.0 gwei",
+      "hash": "0x6d5c77e6990abbf04d1ec472cbbd5dcfe81b0a5d6abed16f8f6d081db16e8a58",
+      "block": 124507208,
+      "gasUsed": "30197"
+    },
+    {
+      "step": "transferOwnership 0x78b90b71eF598A13530cF77a3E69CFd8Fb0b24fB",
+      "hash": "0xdb04be68b252e661c74cf6d831485b496b28c6d72a65b3d421713b1a809bd18b",
+      "block": 124507216,
+      "gasUsed": "48015"
+    }
+  ],
+  "writtenAt": "2026-09-28T10:16:58.680Z"
+}

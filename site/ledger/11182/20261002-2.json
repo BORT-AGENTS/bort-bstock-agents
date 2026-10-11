@@ -1,0 +1,69 @@
+{
+  "format": "desk-notes/1",
+  "tokenId": "11182",
+  "day": 20261002,
+  "epochDay": 20728,
+  "phase": 2,
+  "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+  "block": "125354763",
+  "root": "0x8613abbbc305687bb801cf193692622e65910941c488ffe6cff365a63a5343cc",
+  "pages": [
+    {
+      "page": {
+        "kind": "record",
+        "day": 20261002,
+        "phase": 2,
+        "role": "trader",
+        "tokenId": "11182",
+        "wallet": "0x04B4849eFc453b8E313b52b5d1cd9Ff266D54af0",
+        "block": "125354763"
+      },
+      "leaf": "0x18d602245ed32443fd8c127b02d27bd953ebc9bfa7fa764317b6a6b88cdbac6f",
+      "proof": [
+        "0x28e4f61996f4f44185a54071bcc74d4730092086ec1ac446af3d5f1076deec72",
+        "0x6c24a3014a31259a29b9e599d904d56644fdcafa73056da7dc7df3d1584fbb92"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "NVDAB",
+        "units": "8638968332959126",
+        "costUsd": "2.0",
+        "takeProfitBps": 300,
+        "stopLossBps": 300
+      },
+      "leaf": "0x28e4f61996f4f44185a54071bcc74d4730092086ec1ac446af3d5f1076deec72",
+      "proof": [
+        "0x18d602245ed32443fd8c127b02d27bd953ebc9bfa7fa764317b6a6b88cdbac6f",
+        "0x6c24a3014a31259a29b9e599d904d56644fdcafa73056da7dc7df3d1584fbb92"
+      ]
+    },
+    {
+      "page": {
+        "kind": "position",
+        "day": 20261002,
+        "phase": 2,
+        "stock": "QQQB",
+        "units": "5403430104784515",
+        "costUsd": "3.999739505800925012",
+        "takeProfitBps": 300,
+        "stopLossBps": 300
+      },
+      "leaf": "0x6c24a3014a31259a29b9e599d904d56644fdcafa73056da7dc7df3d1584fbb92",
+      "proof": [
+        "0x28165dbd9eba50ced53d2296761cccf24637bbf2f5444bc57ecdc0c431f57d49"
+      ]
+    }
+  ],
+  "anchor": {
+    "tx": "0xddc7635ab47aad1550151e1ee219ab7d2310323bba81d8f69f492d6af7bc9994",
+    "block": 125354776,
+    "epochDay": 20728,
+    "uri": "ipfs://bafkreiaczmg7k53v7456a4l4gputc2ti36osevppvds3fzpjbx6r4rbdca"
+  },
+  "logic": "0x4245dd4DC9e9bC1035514C6de13C88ab91b61946",
+  "summary": "ipfs://bafkreifni46k7euyb56mgdql6x6akbk7u64ct7sybyje6ik4kbb5o65sze"
+}
